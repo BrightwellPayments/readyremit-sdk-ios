@@ -20,52 +20,52 @@ let package = Package(
         .binaryTarget(
             name: "ReadyRemitSDK",
             url: "https://githubURL/ReadyRemitSDK.xcframework.zip",
-            checksum: "b2ac3a9c0b2a1dff9b34059a255adb4271068628ab7e664a2d1cb8c79d63b63e"
+            checksum: "37c5e808a8a4d4bbf777b7c2bf250f0a6a0689f9d160dce3a0c6c82ae8d3fb85"
         ),
         .binaryTarget(
             name: "ReadyRemitSDKLite",
             url: "https://githubURL/ReadyRemitSDK.xcframework.zip",
-            checksum: "b2ac3a9c0b2a1dff9b34059a255adb4271068628ab7e664a2d1cb8c79d63b63e"
+            checksum: "6ad5e727b52c88da020731b8d0f6b21375f9cd7037dfbce4f780392533d88977"
         ),
         .binaryTarget(
             name: "AcuantCamera",
-            url: "https://githubURL/AcuantCamera.xcframework.zip",
-            checksum: "e4edd8bdbbcaa60108dc34cb7d4049221387738108d62b24f5104b0ce8e0001d"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/AcuantCamera.xcframework.zip",
+            checksum: "09cb01a503f517ae20d50ece506cd8f8161b33365b97d967a75ed61163eb85c4"
         ),
         .binaryTarget(
             name: "AcuantCommon",
-            url: "https://githubURL/AcuantCommon.xcframework.zip",
-            checksum: "67d7caa56fb14b42bc2220371366564a14f69737b816b140217bd1f301869f4e"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/AcuantCommon.xcframework.zip",
+            checksum: "28988f77e29a6df69e24828dd7b1b159195110247938902c244032f457475fa5"
         ),
         .binaryTarget(
             name: "AcuantFaceCapture",
-            url: "https://githubURL/AcuantFaceCapture.xcframework.zip",
-            checksum: "72f112c678f6bcdf2769d0dde8f29c8f630a91d8c50bdedeeacb5b600f0e641d"
+            url:"https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/AcuantFaceCapture.xcframework.zip",
+            checksum: "bc3b48ebe5ebe325853413a65c89b5289d8dc1e437faf3d330759ce4d69e628a"
         ),
         .binaryTarget(
             name: "AcuantImagePreparation",
-            url: "https://githubURL/AcuantImagePreparation.xcframework.zip",
-            checksum: "b90f5f12a26f244b73acdacfe6b55348826d17ebd0004452a37013aeb01ab8d9"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/AcuantImagePreparation.xcframework.zip",
+            checksum: "26b33b61d57d5c72455d9e822579da83bb8b348dc152fd54900044198e69cbff"
         ),
         .binaryTarget(
             name: "AcuantPassiveLiveness",
-            url: "https://githubURL/AcuantPassiveLiveness.xcframework.zip",
-            checksum: "aa18237e580c094132d6950aa0879cf87eeef8e88fcd0b6f0ef4c7bd0b4daafe"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/AcuantPassiveLiveness.xcframework.zip",
+            checksum: "7026f2829897b1c4a93b0f3e7c1bcf6527c3f987dc733296b41fc0258acd943e"
         ),
         .binaryTarget(
             name: "ScanForensicsPlus",
-            url: "https://githubURL/ScanForensicsPlus.xcframework.zip",
-            checksum: "5cc20a0c58100772f4fab6cb7c4a068cda3dfe5efc4ffde6ffdc250de52e47a8"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/ScanForensicsPlus.xcframework.zip",
+            checksum: "647f4ec336c19096a1ce0efe9c49c5921048b534b655b879a12eacf309478280"
         ),
         .binaryTarget(
             name: "TesseractOCR",
-            url: "https://githubURL/TesseractOCR.xcframework.zip",
-            checksum: "49d75e826a1346924bc9bbb579470382399e525e610ac5eece78fb63e1883f3f"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/TesseractOCR.xcframework.zip",
+            checksum: "800763ff40c50b06a740a03b6e1464cda6108c54a8cd2abd9cbaea02de8783c8"
         ),
         .binaryTarget(
             name: "VisaSensoryBranding",
-            url: "https://githubURL/VisaSensoryBranding.xcframework.zip",
-            checksum: "056ee1189d6a3b26c33973eae2328a13ad1e6f2511223dc6f6863f17fb8d953a"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/VisaSensoryBranding.xcframework.zip",
+            checksum: "7f99f22c6433a22c443a3c0f37963218461ad68379b4d64a762c1f52b027659b"
         )
     ]
 )
