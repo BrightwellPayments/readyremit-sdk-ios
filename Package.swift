@@ -24,7 +24,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ReadyRemitSDKLite",
-            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/ReadyRemitSDK.xcframework.zip",
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/ReadyRemitSDKLite.xcframework.zip",
             checksum: "6ad5e727b52c88da020731b8d0f6b21375f9cd7037dfbce4f780392533d88977"
         ),
         .binaryTarget(
