@@ -7,10 +7,6 @@ let package = Package(
         .library(
             name: "ReadyRemitSDK",
             targets: ["ReadyRemitSDK", "AcuantCamera", "AcuantCommon", "AcuantFaceCapture", "AcuantImagePreparation", "AcuantPassiveLiveness", "ScanForensicsPlus", "TesseractOCR", "VisaSensoryBranding"]
-        ),
-        .library(
-            name: "ReadyRemitSDKLite",
-            targets: ["ReadyRemitSDKLite", "VisaSensoryBranding"]
         )
     ],
     dependencies: [
@@ -21,11 +17,6 @@ let package = Package(
             name: "ReadyRemitSDK",
             url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/ReadyRemitSDK.xcframework.zip",
             checksum: "37c5e808a8a4d4bbf777b7c2bf250f0a6a0689f9d160dce3a0c6c82ae8d3fb85"
-        ),
-        .binaryTarget(
-            name: "ReadyRemitSDKLite",
-            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/ReadyRemitSDKLite.xcframework.zip",
-            checksum: "6ad5e727b52c88da020731b8d0f6b21375f9cd7037dfbce4f780392533d88977"
         ),
         .binaryTarget(
             name: "AcuantCamera",
