@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "ReadyRemitSDKPackage",
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "ReadyRemitSDK",
@@ -10,7 +11,6 @@ let package = Package(
         )
     ],
     dependencies: [
-        
     ],
     targets: [
         .binaryTarget(
@@ -58,6 +58,7 @@ let package = Package(
             url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/raw/v5.0/Sources/VisaSensoryBranding.xcframework.zip",
             checksum: "7f99f22c6433a22c443a3c0f37963218461ad68379b4d64a762c1f52b027659b"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
 
