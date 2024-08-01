@@ -10,14 +10,23 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Swinject/Swinject.git", from: "2.7.1"),
-        .package(url: "https://github.com/Swinject/SwinjectAutoRegistration.git", from: "2.8.0"),
-        .package(url: "https://github.com/mixpanel/mixpanel-swift.git", from: "2.9.9"),
-        .package(url: "https://github.com/launchdarkly/ios-client-sdk.git", from: "5.4.0"),
+        .package(name: "Swinject", 
+                 url: "https://github.com/Swinject/Swinject.git",
+                 from: "2.7.1"),
+        .package(name: "SwinjectAutoRegistration",
+                 url: "https://github.com/Swinject/SwinjectAutoRegistration.git", 
+                 from: "2.8.0"),
+        .package(
+            name: "Mixpanel",
+            url: "https://github.com/mixpanel/mixpanel-swift.git",
+            from: "2.9.9"),
+        .package(name: "LaunchDarkly",
+            url: "https://github.com/launchdarkly/ios-client-sdk.git",
+                 from: "5.4.0"),
     ],
     targets: [
         .target(name: "ReadyRemitSDKTarget",
-                dependencies: [.target(name: "ReadyRemitSDKWrapper")],
+                dependencies: [.target(name: "ReadyRemitSDKWrapper"),],
                path: "SwiftPM-Exclude/ReadyRemitTargetWrp"),
         .target(name: "ReadyRemitSDKWrapper",
                 dependencies: [
@@ -26,7 +35,8 @@ let package = Package(
                     "Swinject",
                     "SwinjectAutoRegistration",
                     "Mixpanel",
-                    "LaunchDarkly"],
+                    "LaunchDarkly"
+                ],
                path: "SwiftPM-Exclude/ReadyRemitWrapper"),
         .binaryTarget(
             name: "VisaSensoryBranding",
