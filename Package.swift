@@ -6,11 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "ReadyRemitSDK",
-            targets: [
-                "ReadyRemitSDK", 
-                "VisaSensoryBranding",
-                "Swinject"
-            ]
+            targets: ["ReadyRemitSDKTarget"]
         )
     ],
     dependencies: [
@@ -20,6 +16,18 @@ let package = Package(
         .package(url: "https://github.com/launchdarkly/ios-client-sdk.git", from: "5.4.0"),
     ],
     targets: [
+        .target(name: "ReadyRemitSDKTarget",
+                dependencies: [.target(name: "ReadyRemitSDKWrapper")],
+               path: "SwiftPM-Exclude/ReadyRemitTargetWrp"),
+        .target(name: "ReadyRemitSDKWrapper",
+                dependencies: [
+                    .target(name: "ReadyRemitSDK"),
+                    .target(name: "VisaSensoryBranding"),
+                    "Swinject",
+                    "SwinjectAutoRegistration",
+                    "Mixpanel",
+                    "LaunchDarkly"],
+               path: "SwiftPM-Exclude/ReadyRemitWrapper"),
         .binaryTarget(
             name: "VisaSensoryBranding",
             url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v7.2/VisaSensoryBranding.xcframework.zip",
