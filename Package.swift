@@ -10,19 +10,14 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "Swinject", 
-                 url: "https://github.com/Swinject/Swinject.git",
+        .package(url: "https://github.com/Swinject/Swinject.git",
                  from: "2.7.1"),
-        .package(name: "SwinjectAutoRegistration",
-                 url: "https://github.com/Swinject/SwinjectAutoRegistration.git", 
-                 from: "2.8.0"),
-        .package(
-            name: "Mixpanel",
-            url: "https://github.com/mixpanel/mixpanel-swift.git",
-            from: "2.9.9"),
-        .package(name: "LaunchDarkly",
-            url: "https://github.com/launchdarkly/ios-client-sdk.git",
-                 from: "5.4.0"),
+        .package(url: "https://github.com/Swinject/SwinjectAutoregistration.git",
+                 from: "2.9.1"),
+        .package(url: "https://github.com/mixpanel/mixpanel-swift.git",
+            .branch("master")),
+        .package(url: "https://github.com/launchdarkly/ios-client-sdk.git",
+                 from: "9.3.0"),
     ],
     targets: [
         .target(name: "ReadyRemitSDKTarget",
@@ -33,7 +28,7 @@ let package = Package(
                     .target(name: "ReadyRemitSDK"),
                     .target(name: "VisaSensoryBranding"),
                     "Swinject",
-                    "SwinjectAutoRegistration",
+                    "SwinjectAutoregistration",
                     "Mixpanel",
                     "LaunchDarkly"
                 ],
