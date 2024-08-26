@@ -24,7 +24,7 @@
        dependencies: [
            .package(
                url: "https://github.com/BrightwellPayments/readyremit-sdk-ios",
-               .branch("7.2")
+               .branch("8.0")
            )
        ],
        targets: [
@@ -66,7 +66,7 @@
 
 1. In the next dialog choose the dependency rule:
     - Select `Branch` from the options
-    - Enter `7.2` as the branch name
+    - Enter `8.0` as the branch name
 2. Click `Add Package`
 
 ### Step 4: Add the Package to your targets
