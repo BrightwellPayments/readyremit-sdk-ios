@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ReadyRemitSDK'
-    s.version          = '8.1' # Atualize para a versão correta
+    s.version          = '8.1'
     s.summary          = 'Cross-border payouts, remittances & disbursements made easy'
     s.description      = <<-DESC
       ReadyRemit is designed to help you capture more revenue by quickly and
@@ -15,15 +15,12 @@ Pod::Spec.new do |s|
   
     s.platform     = :ios, '15.0'
   
-    # Inclua os frameworks binários
     s.vendored_frameworks = [
       'ReadyRemitSDK.xcframework',
       'VisaSensoryBranding.xcframework'
     ]
   
-    # Dependências
     s.dependency 'Swinject', '2.9.1'
-
-
+    
   end
   
