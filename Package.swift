@@ -25,13 +25,13 @@ let package = Package(
                path: "SwiftPM-Exclude/ReadyRemitWrapper"),
         .binaryTarget(
             name: "VisaSensoryBranding",
-            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v8.1/VisaSensoryBranding.xcframework.zip",
-            checksum: "03ff1cbb5d50dc3d68521506628549d15c26744ecfbf5565d647716bb6118c80"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v9.0/VisaSensoryBranding.xcframework.zip",
+            checksum: "e927457beef2a7c17e000b424d9c856fcb4622772f2ab24bb6e9c34b72d40a3c"
         ),
         .binaryTarget(
             name: "ReadyRemitSDK",
-            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v8.1/ReadyRemitSDK.zip",
-            checksum: "561b0fa94a78d7ed2bc48735c94fdacfded68c3bc213b71cc839a3e72cca4546"
+            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v9.0/ReadyRemitSDK.zip",
+            checksum: "bcce8b7a3c7772b928b2f1604c77c9939c6e57f9cb7619fb45b4a53ea3fa0bc4"
         )
     ],
     swiftLanguageVersions: [.v5]
