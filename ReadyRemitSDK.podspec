@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.brightwell.com/readyremit'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
     s.author           = { 'Brightwell' => 'contact@brightwell.com' }
-    s.source           = { :http => 'https://github.com/BrightwellPayments/readyremit-sdk-ios/blob/9.0/Cocoapods/Source.zip' }
+    s.source           = { :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.0', :submodules => true }
   
     s.platform     = :ios, '15.0'
   
     s.vendored_frameworks = [
-      'ReadyRemitSDK.xcframework',
-      'VisaSensoryBranding.xcframework'
+      'Cocoapods/ReadyRemitSDK.xcframework',
+      'Cocoapods/VisaSensoryBranding.xcframework'
     ]
   
     s.dependency 'Swinject', '2.9.1'
