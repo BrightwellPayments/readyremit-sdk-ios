@@ -31,7 +31,7 @@ let package = Package(
         .binaryTarget(
             name: "ReadyRemitSDK",
             url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v9.0/ReadyRemitSDK.zip",
-            checksum: "bcce8b7a3c7772b928b2f1604c77c9939c6e57f9cb7619fb45b4a53ea3fa0bc4"
+            checksum: "b89cb2d533a7bb80dc9b7140cda6085eb0e22f4a9744049985288c25f69b0d7f"
         )
     ],
     swiftLanguageVersions: [.v5]
