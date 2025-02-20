@@ -6836,16 +6836,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -10601,6 +10591,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -12566,6 +12573,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13242,7 +13259,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 8247,
+      "offset": 10661,
       "length": 5,
       "value": "false"
     },
@@ -13403,119 +13420,119 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 810,
+      "offset": 829,
       "length": 13,
       "value": "\"SEND_AMOUNT\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 868,
       "length": 16,
       "value": "\"RECEIVE_AMOUNT\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "BooleanLiteral",
-      "offset": 2338,
+      "offset": 2357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "BooleanLiteral",
-      "offset": 2366,
+      "offset": 2385,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "BooleanLiteral",
-      "offset": 4162,
+      "offset": 4181,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "BooleanLiteral",
-      "offset": 4190,
+      "offset": 4209,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "BooleanLiteral",
-      "offset": 5807,
+      "offset": 5826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "BooleanLiteral",
-      "offset": 5835,
+      "offset": 5854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 8882,
+      "offset": 8901,
       "length": 41,
       "value": "\"Next Business Day or A bigger text here\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 8970,
+      "offset": 8989,
       "length": 9,
       "value": "\"INSTANT\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9002,
+      "offset": 9021,
       "length": 13,
       "value": "\"TEN_MINUTES\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9041,
+      "offset": 9060,
       "length": 16,
       "value": "\"THIRTY_MINUTES\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9085,
+      "offset": 9104,
       "length": 20,
       "value": "\"SAME_BUSSINESS_DAY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9133,
+      "offset": 9152,
       "length": 19,
       "value": "\"NEXT_BUSINESS_DAY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9180,
+      "offset": 9199,
       "length": 19,
       "value": "\"TWO_BUSINESS_DAYS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9228,
+      "offset": 9247,
       "length": 20,
       "value": "\"FIVE_BUSINESS_DAYS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Quote.swift",
       "kind": "StringLiteral",
-      "offset": 9291,
+      "offset": 9310,
       "length": 37,
       "value": "\"THIRTY_MINUTES_TO_TWO_BUSINESS_DAYS\""
     },
@@ -13599,21 +13616,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+MobileWallet.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 669,
       "length": 40,
       "value": "\"MobileWallet - WalletDropdown Selected\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+MobileWallet.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 736,
       "length": 38,
       "value": "\"MobileWallet - WalletDropdown Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+MobileWallet.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 798,
       "length": 29,
       "value": "\"MobileWallet - Phone Tapped\""
     },
@@ -13795,238 +13812,245 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1447,
-      "length": 24,
-      "value": "\"GRAB_PAY_MOBILE_WALLET\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1516,
+      "offset": 1444,
       "length": 20,
       "value": "\"MAYA_MOBILE_WALLET\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1584,
-      "length": 24,
-      "value": "\"COINS_PH_MOBILE_WALLET\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1510,
       "length": 22,
       "value": "\"G_CASH_MOBILE_WALLET\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1561,
       "length": 6,
       "value": "\"BANK\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1744,
+      "offset": 1600,
       "length": 11,
       "value": "\"BANK_NAME\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1646,
       "length": 13,
       "value": "\"BANK_BRANCH\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 1701,
       "length": 19,
       "value": "\"BANK_ACCOUNT_TYPE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 1744,
       "length": 20,
       "value": "\"REMITTANCE_PURPOSE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 1787,
       "length": 17,
       "value": "\"SOURCE_OF_FUNDS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 1841,
       "length": 24,
       "value": "\"PAYMENT_ACCOUNT_NUMBER\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2040,
+      "offset": 1896,
       "length": 18,
       "value": "\"CARD_HOLDER_NAME\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2088,
+      "offset": 1944,
       "length": 12,
       "value": "\"CARD_BRAND\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2125,
+      "offset": 1981,
       "length": 10,
       "value": "\"DROPDOWN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
+      "offset": 2020,
       "length": 19,
       "value": "\"TWO_BUSINESS_DAYS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2214,
+      "offset": 2070,
       "length": 18,
       "value": "\"SECOND_LAST_NAME\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2114,
       "length": 21,
       "value": "\"help@brightwell.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2319,
+      "offset": 2175,
       "length": 11,
       "value": "\"Initiated\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2368,
+      "offset": 2224,
       "length": 9,
       "value": "\"Pending\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2417,
+      "offset": 2273,
       "length": 10,
       "value": "\"Complete\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2464,
+      "offset": 2320,
       "length": 8,
       "value": "\"Failed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2511,
+      "offset": 2367,
       "length": 10,
       "value": "\"Canceled\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2560,
+      "offset": 2416,
       "length": 10,
       "value": "\"Refunded\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2604,
+      "offset": 2460,
       "length": 19,
       "value": "\"SHOW_AND_REQUIRED\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2657,
+      "offset": 2513,
       "length": 19,
       "value": "\"SHOW_AND_OPTIONAL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2566,
       "length": 19,
       "value": "\"HIDE_AND_REQUIRED\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2619,
       "length": 19,
       "value": "\"HIDE_AND_OPTIONAL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2815,
+      "offset": 2671,
       "length": 20,
       "value": "\"CASH_PICKUP_FIELDS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2866,
+      "offset": 2722,
       "length": 17,
       "value": "\"TRANSFER_FIELDS\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2920,
+      "offset": 2776,
       "length": 24,
       "value": "\"MOBILE_WALLET_PROVIDER\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2998,
+      "offset": 2854,
       "length": 40,
       "value": "\"SourceCardAndReceivingCardMustBeUnique\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3070,
+      "offset": 2926,
       "length": 30,
       "value": "\"IdentityVerificationRequired\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 2989,
       "length": 20,
       "value": "\"IdentityUnverified\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 3060,
+      "length": 20,
+      "value": "\"MinLimitOutOfRange\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3112,
+      "length": 26,
+      "value": "\"MinLimitOutOfRangeFormat\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3170,
+      "length": 20,
+      "value": "\"MaxLimitOutOfRange\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3226,
       "length": 98,
       "value": "\"https:\/\/docs.google.com\/document\/d\/16P5iCwoEzN0Bk8NlGorOIRXMmZJZxU-pm6N_xKn_Y8A\/edit?usp=sharing\""
     },
@@ -14628,28 +14652,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Currency.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 781,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Currency.swift",
+      "kind": "Array",
+      "offset": 856,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Currency.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 1073,
       "length": 3,
       "value": "\"$\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Currency.swift",
       "kind": "IntegerLiteral",
-      "offset": 763,
+      "offset": 1149,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Currency.swift",
+      "kind": "Array",
+      "offset": 1232,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Currency.swift",
       "kind": "StringLiteral",
-      "offset": 820,
+      "offset": 1290,
       "length": 12,
       "value": "\"0123456789\""
     },
@@ -15306,22 +15344,36 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 489,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferState.swift",
       "kind": "Array",
-      "offset": 502,
+      "offset": 617,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferState.swift",
       "kind": "Array",
-      "offset": 550,
+      "offset": 665,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferState.swift",
       "kind": "Array",
-      "offset": 994,
+      "offset": 1117,
       "length": 2,
       "value": "[]"
     },
@@ -15373,6 +15425,13 @@
       "offset": 282,
       "length": 13,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/LearnMoreModalView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 2,
+      "value": "58"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/Home\/HomeViewPresenter.swift",
@@ -15895,7 +15954,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/SearchBarView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2152,
+      "offset": 2150,
       "length": 5,
       "value": "false"
     },
@@ -16642,6 +16701,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferPage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 676,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/ConnectionObserver.swift",
       "kind": "BooleanLiteral",
       "offset": 399,
@@ -17288,21 +17354,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+StartTransfer.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
+      "offset": 1101,
+      "length": 52,
+      "value": "\"StartTransfer - Country searched with empty result\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+StartTransfer.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
       "length": 20,
       "value": "\"LearnMore - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+StartTransfer.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1252,
       "length": 25,
       "value": "\"LearnMore - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+StartTransfer.swift",
       "kind": "StringLiteral",
-      "offset": 1235,
+      "offset": 1311,
       "length": 43,
       "value": "\"StartTransfer - QuoteDropdownClose Tapped\""
     },
@@ -17428,21 +17501,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/RRMCurrencyField.swift",
       "kind": "StringLiteral",
-      "offset": 313,
+      "offset": 344,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/RRMCurrencyField.swift",
       "kind": "BooleanLiteral",
-      "offset": 623,
+      "offset": 657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/RRMCurrencyField.swift",
       "kind": "BooleanLiteral",
-      "offset": 841,
+      "offset": 875,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/RRMCurrencyField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1043,
       "length": 5,
       "value": "false"
     },
@@ -17491,21 +17571,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/CountryDropdown.swift",
       "kind": "StringLiteral",
-      "offset": 342,
+      "offset": 404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/CountryDropdown.swift",
       "kind": "Array",
-      "offset": 388,
+      "offset": 458,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/CountryDropdown.swift",
       "kind": "BooleanLiteral",
-      "offset": 438,
+      "offset": 508,
       "length": 5,
       "value": "false"
     },
@@ -17792,210 +17872,210 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9005,
+      "offset": 8974,
       "length": 12,
       "value": "\"PREFUNDING\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9037,
+      "offset": 9006,
       "length": 16,
       "value": "\"ACCOUNTFUNDING\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "Array",
-      "offset": 9614,
+      "offset": 9583,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9653,
+      "offset": 9622,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9697,
+      "offset": 9666,
       "length": 8,
       "value": "\"PERSON\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9743,
+      "offset": 9712,
       "length": 6,
       "value": "\"Adil\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9786,
+      "offset": 9755,
       "length": 6,
       "value": "\"Khan\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9832,
+      "offset": 9801,
       "length": 14,
       "value": "\"TEST_COMPANY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9884,
+      "offset": 9853,
       "length": 13,
       "value": "\"ID_REQUIRED\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9936,
+      "offset": 9905,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9982,
+      "offset": 9951,
       "length": 7,
       "value": "\"NAMWE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "Array",
-      "offset": 10300,
+      "offset": 10269,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10339,
+      "offset": 10308,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10384,
+      "offset": 10353,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10431,
+      "offset": 10400,
       "length": 8,
       "value": "\"PERSON\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10477,
+      "offset": 10446,
       "length": 5,
       "value": "\"Luc\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10519,
+      "offset": 10488,
       "length": 10,
       "value": "\"Jannsens\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10898,
+      "offset": 10867,
       "length": 14,
       "value": "\"BWP shipping\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10932,
+      "offset": 10901,
       "length": 12,
       "value": "\"California\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10963,
+      "offset": 10932,
       "length": 13,
       "value": "\"Los Angeles\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10996,
+      "offset": 10965,
       "length": 4,
       "value": "\"CA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11022,
+      "offset": 10991,
       "length": 5,
       "value": "\"USA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11049,
+      "offset": 11018,
       "length": 8,
       "value": "\"150001\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11076,
+      "offset": 11045,
       "length": 16,
       "value": "\"1-833-848-5768\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11107,
+      "offset": 11076,
       "length": 16,
       "value": "\"mydashcard.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11320,
+      "offset": 11289,
       "length": 11,
       "value": "\"US Dollar\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11347,
+      "offset": 11316,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11366,
+      "offset": 11335,
       "length": 3,
       "value": "\"$\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11390,
+      "offset": 11359,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11413,
+      "offset": 11382,
       "length": 10,
       "value": "\"STANDARD\""
     },
@@ -18051,21 +18131,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 228,
+      "offset": 227,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 256,
+      "offset": 255,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Country.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 649,
       "length": 5,
       "value": "\"USA\""
     },
@@ -18192,6 +18272,20 @@
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/Labels.swift",
       "kind": "BooleanLiteral",
       "offset": 2218,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/Views\/QuoteCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/Views\/QuoteCardView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
       "length": 4,
       "value": "true"
     },
@@ -18618,1652 +18712,1638 @@
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6824,
-      "length": 7,
-      "value": "\"COINS\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6947,
+      "offset": 6820,
       "length": 5,
       "value": "\"COK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7068,
+      "offset": 6941,
       "length": 5,
       "value": "\"COL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7189,
+      "offset": 7062,
       "length": 5,
       "value": "\"COM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7310,
+      "offset": 7183,
       "length": 5,
       "value": "\"CPV\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7431,
+      "offset": 7304,
       "length": 5,
       "value": "\"CRI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7552,
+      "offset": 7425,
       "length": 5,
       "value": "\"CUB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7673,
+      "offset": 7546,
       "length": 5,
       "value": "\"CUW\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7794,
+      "offset": 7667,
       "length": 5,
       "value": "\"CXR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7915,
+      "offset": 7788,
       "length": 5,
       "value": "\"CYM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8036,
+      "offset": 7909,
       "length": 5,
       "value": "\"CYP\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8157,
+      "offset": 8030,
       "length": 5,
       "value": "\"CZE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8278,
+      "offset": 8151,
       "length": 5,
       "value": "\"DEU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8399,
+      "offset": 8272,
       "length": 5,
       "value": "\"DJI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8520,
+      "offset": 8393,
       "length": 5,
       "value": "\"DMA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8641,
+      "offset": 8514,
       "length": 5,
       "value": "\"DNK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8762,
+      "offset": 8635,
       "length": 5,
       "value": "\"DOM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8883,
+      "offset": 8756,
       "length": 5,
       "value": "\"DZA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9004,
+      "offset": 8877,
       "length": 5,
       "value": "\"ECU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9125,
+      "offset": 8998,
       "length": 5,
       "value": "\"EGY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9246,
+      "offset": 9119,
       "length": 5,
       "value": "\"ERI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 9240,
       "length": 5,
       "value": "\"ESH\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9488,
+      "offset": 9361,
       "length": 5,
       "value": "\"ESP\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9609,
+      "offset": 9482,
       "length": 5,
       "value": "\"EST\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9730,
+      "offset": 9603,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9851,
+      "offset": 9724,
       "length": 5,
       "value": "\"EUR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9972,
+      "offset": 9845,
       "length": 5,
       "value": "\"FIN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10093,
+      "offset": 9966,
       "length": 5,
       "value": "\"FJI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10214,
+      "offset": 10087,
       "length": 5,
       "value": "\"FLK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10335,
+      "offset": 10208,
       "length": 5,
       "value": "\"FRA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10456,
+      "offset": 10329,
       "length": 5,
       "value": "\"FRO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10577,
+      "offset": 10450,
       "length": 5,
       "value": "\"FSM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10698,
+      "offset": 10571,
       "length": 5,
       "value": "\"GAB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10819,
+      "offset": 10692,
       "length": 5,
       "value": "\"GBR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10944,
+      "offset": 10817,
       "length": 7,
       "value": "\"GCASH\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11067,
+      "offset": 10940,
       "length": 5,
       "value": "\"GEO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11188,
+      "offset": 11061,
       "length": 5,
       "value": "\"GGY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11309,
+      "offset": 11182,
       "length": 5,
       "value": "\"GHA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11430,
+      "offset": 11303,
       "length": 5,
       "value": "\"GIB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11551,
+      "offset": 11424,
       "length": 5,
       "value": "\"GIN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11672,
+      "offset": 11545,
       "length": 5,
       "value": "\"GLP\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11793,
+      "offset": 11666,
       "length": 5,
       "value": "\"GMB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11914,
+      "offset": 11787,
       "length": 5,
       "value": "\"GNB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12035,
+      "offset": 11908,
       "length": 5,
       "value": "\"GNQ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12164,
-      "length": 9,
-      "value": "\"GRABPAY\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 12289,
+      "offset": 12029,
       "length": 5,
       "value": "\"GRC\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12410,
+      "offset": 12150,
       "length": 5,
       "value": "\"GRD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12531,
+      "offset": 12271,
       "length": 5,
       "value": "\"GRL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12652,
+      "offset": 12392,
       "length": 5,
       "value": "\"GTM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12773,
+      "offset": 12513,
       "length": 5,
       "value": "\"GUF\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12894,
+      "offset": 12634,
       "length": 5,
       "value": "\"GUM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13015,
+      "offset": 12755,
       "length": 5,
       "value": "\"GUY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13136,
+      "offset": 12876,
       "length": 5,
       "value": "\"HKG\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13257,
+      "offset": 12997,
       "length": 5,
       "value": "\"HMD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13378,
+      "offset": 13118,
       "length": 5,
       "value": "\"HND\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13499,
+      "offset": 13239,
       "length": 5,
       "value": "\"HRV\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13620,
+      "offset": 13360,
       "length": 5,
       "value": "\"HTI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13741,
+      "offset": 13481,
       "length": 5,
       "value": "\"HUN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13862,
+      "offset": 13602,
       "length": 5,
       "value": "\"IDN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13983,
+      "offset": 13723,
       "length": 5,
       "value": "\"IMN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14104,
+      "offset": 13844,
       "length": 5,
       "value": "\"IND\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14225,
+      "offset": 13965,
       "length": 5,
       "value": "\"IOT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14346,
+      "offset": 14086,
       "length": 5,
       "value": "\"IRL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14467,
+      "offset": 14207,
       "length": 5,
       "value": "\"IRN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14588,
+      "offset": 14328,
       "length": 5,
       "value": "\"IRQ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14709,
+      "offset": 14449,
       "length": 5,
       "value": "\"ISL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14830,
+      "offset": 14570,
       "length": 5,
       "value": "\"ISR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14951,
+      "offset": 14691,
       "length": 5,
       "value": "\"ITA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15072,
+      "offset": 14812,
       "length": 5,
       "value": "\"JAM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15193,
+      "offset": 14933,
       "length": 5,
       "value": "\"JEY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15314,
+      "offset": 15054,
       "length": 5,
       "value": "\"JOR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15435,
+      "offset": 15175,
       "length": 5,
       "value": "\"JPN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15556,
+      "offset": 15296,
       "length": 5,
       "value": "\"KAZ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15677,
+      "offset": 15417,
       "length": 5,
       "value": "\"KEN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15798,
+      "offset": 15538,
       "length": 5,
       "value": "\"KGZ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15919,
+      "offset": 15659,
       "length": 5,
       "value": "\"KHM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16040,
+      "offset": 15780,
       "length": 5,
       "value": "\"KIR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16161,
+      "offset": 15901,
       "length": 5,
       "value": "\"KNA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16282,
+      "offset": 16022,
       "length": 5,
       "value": "\"KOR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16403,
+      "offset": 16143,
       "length": 5,
       "value": "\"KWT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16524,
+      "offset": 16264,
       "length": 5,
       "value": "\"LAO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16645,
+      "offset": 16385,
       "length": 5,
       "value": "\"LBN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16766,
+      "offset": 16506,
       "length": 5,
       "value": "\"LBR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16887,
+      "offset": 16627,
       "length": 5,
       "value": "\"LBY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17008,
+      "offset": 16748,
       "length": 5,
       "value": "\"LCA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17129,
+      "offset": 16869,
       "length": 5,
       "value": "\"LIE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17250,
+      "offset": 16990,
       "length": 5,
       "value": "\"LKA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17371,
+      "offset": 17111,
       "length": 5,
       "value": "\"LSO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17492,
+      "offset": 17232,
       "length": 5,
       "value": "\"LTU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17613,
+      "offset": 17353,
       "length": 5,
       "value": "\"LUX\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17734,
+      "offset": 17474,
       "length": 5,
       "value": "\"LVA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17855,
+      "offset": 17595,
       "length": 5,
       "value": "\"MAC\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17976,
+      "offset": 17716,
       "length": 5,
       "value": "\"MAF\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18097,
+      "offset": 17837,
       "length": 5,
       "value": "\"MAR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18218,
+      "offset": 17958,
       "length": 5,
       "value": "\"MCO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18339,
+      "offset": 18079,
       "length": 5,
       "value": "\"MDA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18460,
+      "offset": 18200,
       "length": 5,
       "value": "\"MDG\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18581,
+      "offset": 18321,
       "length": 5,
       "value": "\"MDV\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18702,
+      "offset": 18442,
       "length": 5,
       "value": "\"MEX\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18823,
+      "offset": 18563,
       "length": 5,
       "value": "\"MHL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18944,
+      "offset": 18684,
       "length": 5,
       "value": "\"MKD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19065,
+      "offset": 18805,
       "length": 5,
       "value": "\"MLI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19186,
+      "offset": 18926,
       "length": 5,
       "value": "\"MLT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19307,
+      "offset": 19047,
       "length": 5,
       "value": "\"MMR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19428,
+      "offset": 19168,
       "length": 5,
       "value": "\"MNE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19549,
+      "offset": 19289,
       "length": 5,
       "value": "\"MNG\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19670,
+      "offset": 19410,
       "length": 5,
       "value": "\"MNP\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19811,
+      "offset": 19551,
       "length": 15,
       "value": "\"MOBILE_WALLET\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19942,
+      "offset": 19682,
       "length": 5,
       "value": "\"MOZ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20063,
+      "offset": 19803,
       "length": 5,
       "value": "\"MRT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20184,
+      "offset": 19924,
       "length": 5,
       "value": "\"MSR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20305,
+      "offset": 20045,
       "length": 5,
       "value": "\"MTQ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20426,
+      "offset": 20166,
       "length": 5,
       "value": "\"MUS\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20547,
+      "offset": 20287,
       "length": 5,
       "value": "\"MWI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20668,
+      "offset": 20408,
       "length": 5,
       "value": "\"MYS\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20789,
+      "offset": 20529,
       "length": 5,
       "value": "\"MYT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20910,
+      "offset": 20650,
       "length": 5,
       "value": "\"NAM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21031,
+      "offset": 20771,
       "length": 5,
       "value": "\"NCL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21152,
+      "offset": 20892,
       "length": 5,
       "value": "\"NER\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21273,
+      "offset": 21013,
       "length": 5,
       "value": "\"NFK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21394,
+      "offset": 21134,
       "length": 5,
       "value": "\"NGA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21515,
+      "offset": 21255,
       "length": 5,
       "value": "\"NIC\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21636,
+      "offset": 21376,
       "length": 5,
       "value": "\"NIU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21757,
+      "offset": 21497,
       "length": 5,
       "value": "\"NLD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21878,
+      "offset": 21618,
       "length": 5,
       "value": "\"NOR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21999,
+      "offset": 21739,
       "length": 5,
       "value": "\"NPL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22120,
+      "offset": 21860,
       "length": 5,
       "value": "\"NRU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22241,
+      "offset": 21981,
       "length": 5,
       "value": "\"NZL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22362,
+      "offset": 22102,
       "length": 5,
       "value": "\"OMN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22483,
+      "offset": 22223,
       "length": 5,
       "value": "\"PAK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22604,
+      "offset": 22344,
       "length": 5,
       "value": "\"PAN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22733,
+      "offset": 22473,
       "length": 9,
       "value": "\"PAYMAYA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22858,
+      "offset": 22598,
       "length": 5,
       "value": "\"PCN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22979,
+      "offset": 22719,
       "length": 5,
       "value": "\"PER\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23111,
+      "offset": 22851,
       "length": 10,
       "value": "\"PH010197\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23248,
+      "offset": 22988,
       "length": 10,
       "value": "\"PH010198\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23374,
+      "offset": 23114,
       "length": 5,
       "value": "\"PHL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23495,
+      "offset": 23235,
       "length": 5,
       "value": "\"PLW\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23616,
+      "offset": 23356,
       "length": 5,
       "value": "\"PNG\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23737,
+      "offset": 23477,
       "length": 5,
       "value": "\"POL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23858,
+      "offset": 23598,
       "length": 5,
       "value": "\"PRI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23979,
+      "offset": 23719,
       "length": 5,
       "value": "\"PRK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24100,
+      "offset": 23840,
       "length": 5,
       "value": "\"PRT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24221,
+      "offset": 23961,
       "length": 5,
       "value": "\"PRY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24342,
+      "offset": 24082,
       "length": 5,
       "value": "\"PSE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24481,
+      "offset": 24221,
       "length": 14,
       "value": "\"PUSH_TO_CARD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24611,
+      "offset": 24351,
       "length": 5,
       "value": "\"PYF\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24732,
+      "offset": 24472,
       "length": 5,
       "value": "\"QAT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24853,
+      "offset": 24593,
       "length": 5,
       "value": "\"REU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24974,
+      "offset": 24714,
       "length": 5,
       "value": "\"ROU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25095,
+      "offset": 24835,
       "length": 5,
       "value": "\"RUS\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25216,
+      "offset": 24956,
       "length": 5,
       "value": "\"RWA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25337,
+      "offset": 25077,
       "length": 5,
       "value": "\"SAU\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25458,
+      "offset": 25198,
       "length": 5,
       "value": "\"SDN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25579,
+      "offset": 25319,
       "length": 5,
       "value": "\"SEN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25700,
+      "offset": 25440,
       "length": 5,
       "value": "\"SGP\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25821,
+      "offset": 25561,
       "length": 5,
       "value": "\"SGS\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25942,
+      "offset": 25682,
       "length": 5,
       "value": "\"SHN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26063,
+      "offset": 25803,
       "length": 5,
       "value": "\"SJM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26184,
+      "offset": 25924,
       "length": 5,
       "value": "\"SLB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26305,
+      "offset": 26045,
       "length": 5,
       "value": "\"SLE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26426,
+      "offset": 26166,
       "length": 5,
       "value": "\"SLV\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26547,
+      "offset": 26287,
       "length": 5,
       "value": "\"SMR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26668,
+      "offset": 26408,
       "length": 5,
       "value": "\"SOM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26789,
+      "offset": 26529,
       "length": 5,
       "value": "\"SPM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26910,
+      "offset": 26650,
       "length": 5,
       "value": "\"SRB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27031,
+      "offset": 26771,
       "length": 5,
       "value": "\"SSD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27152,
+      "offset": 26892,
       "length": 5,
       "value": "\"STP\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27273,
+      "offset": 27013,
       "length": 5,
       "value": "\"SUR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27394,
+      "offset": 27134,
       "length": 5,
       "value": "\"SVK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27515,
+      "offset": 27255,
       "length": 5,
       "value": "\"SVN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27636,
+      "offset": 27376,
       "length": 5,
       "value": "\"SWE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27757,
+      "offset": 27497,
       "length": 5,
       "value": "\"SWZ\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27878,
+      "offset": 27618,
       "length": 5,
       "value": "\"SXM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 27999,
+      "offset": 27739,
       "length": 5,
       "value": "\"SYC\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28120,
+      "offset": 27860,
       "length": 5,
       "value": "\"SYR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28241,
+      "offset": 27981,
       "length": 5,
       "value": "\"TCA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28362,
+      "offset": 28102,
       "length": 5,
       "value": "\"TCD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28483,
+      "offset": 28223,
       "length": 5,
       "value": "\"TGO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28604,
+      "offset": 28344,
       "length": 5,
       "value": "\"THA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28725,
+      "offset": 28465,
       "length": 5,
       "value": "\"TJK\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28846,
+      "offset": 28586,
       "length": 5,
       "value": "\"TKL\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 28967,
+      "offset": 28707,
       "length": 5,
       "value": "\"TKM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29088,
+      "offset": 28828,
       "length": 5,
       "value": "\"TLS\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29209,
+      "offset": 28949,
       "length": 5,
       "value": "\"TON\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29330,
+      "offset": 29070,
       "length": 5,
       "value": "\"TTO\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29451,
+      "offset": 29191,
       "length": 5,
       "value": "\"TUN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29572,
+      "offset": 29312,
       "length": 5,
       "value": "\"TUR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29693,
+      "offset": 29433,
       "length": 5,
       "value": "\"TUV\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29814,
+      "offset": 29554,
       "length": 5,
       "value": "\"TWN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29935,
+      "offset": 29675,
       "length": 5,
       "value": "\"TZA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30056,
+      "offset": 29796,
       "length": 5,
       "value": "\"UAE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30177,
+      "offset": 29917,
       "length": 5,
       "value": "\"UGA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30298,
+      "offset": 30038,
       "length": 5,
       "value": "\"UKR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30419,
+      "offset": 30159,
       "length": 5,
       "value": "\"UMI\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30540,
+      "offset": 30280,
       "length": 5,
       "value": "\"URY\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30661,
+      "offset": 30401,
       "length": 5,
       "value": "\"USA\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30782,
+      "offset": 30522,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30903,
+      "offset": 30643,
       "length": 5,
       "value": "\"UZB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31024,
+      "offset": 30764,
       "length": 5,
       "value": "\"VAT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31145,
+      "offset": 30885,
       "length": 5,
       "value": "\"VCT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31266,
+      "offset": 31006,
       "length": 5,
       "value": "\"VEN\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31387,
+      "offset": 31127,
       "length": 5,
       "value": "\"VGB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31508,
+      "offset": 31248,
       "length": 5,
       "value": "\"VIR\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31629,
+      "offset": 31369,
       "length": 5,
       "value": "\"VNM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31750,
+      "offset": 31490,
       "length": 5,
       "value": "\"VUT\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31871,
+      "offset": 31611,
       "length": 5,
       "value": "\"WLF\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31992,
+      "offset": 31732,
       "length": 5,
       "value": "\"WSM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32113,
+      "offset": 31853,
       "length": 5,
       "value": "\"XKX\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32234,
+      "offset": 31974,
       "length": 5,
       "value": "\"YEM\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32355,
+      "offset": 32095,
       "length": 5,
       "value": "\"ZAF\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32476,
+      "offset": 32216,
       "length": 5,
       "value": "\"ZMB\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32597,
+      "offset": 32337,
       "length": 5,
       "value": "\"ZWE\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32720,
+      "offset": 32460,
       "length": 6,
       "value": "\"back\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32859,
+      "offset": 32599,
       "length": 14,
       "value": "\"bank-account\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32995,
+      "offset": 32735,
       "length": 8,
       "value": "\"cancel\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33144,
+      "offset": 32884,
       "length": 18,
       "value": "\"checkmark-circle\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33282,
+      "offset": 33022,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33418,
+      "offset": 33158,
       "length": 12,
       "value": "\"close_edit\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33552,
+      "offset": 33292,
       "length": 8,
       "value": "\"danger\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33695,
+      "offset": 33435,
       "length": 15,
       "value": "\"danger-circle\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33836,
+      "offset": 33576,
       "length": 10,
       "value": "\"download\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 33972,
+      "offset": 33712,
       "length": 10,
       "value": "\"fallback\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34102,
+      "offset": 33842,
       "length": 7,
       "value": "\"front\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34227,
+      "offset": 33967,
       "length": 6,
       "value": "\"info\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34364,
+      "offset": 34104,
       "length": 13,
       "value": "\"info-circle\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34510,
+      "offset": 34250,
       "length": 14,
       "value": "\"maestro_logo\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34646,
+      "offset": 34386,
       "length": 8,
       "value": "\"master\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34778,
+      "offset": 34518,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 34915,
+      "offset": 34655,
       "length": 11,
       "value": "\"recipient\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 35054,
+      "offset": 34794,
       "length": 11,
       "value": "\"reference\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 35187,
+      "offset": 34927,
       "length": 8,
       "value": "\"refund\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 35326,
+      "offset": 35066,
       "length": 13,
       "value": "\"right_arrow\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 35463,
+      "offset": 35203,
       "length": 9,
       "value": "\"spinner\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 35596,
+      "offset": 35336,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/vagrant\/Library\/Developer\/Xcode\/DerivedData\/ReadyRemitSDK-cwgykdmdywsuwpeanjmnaqoiohyb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ReadyRemitSDK\/IntermediateBuildFilesPath\/ReadyRemitSDK.build\/Release-iphoneos\/ReadyRemitSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 35732,
+      "offset": 35472,
       "length": 11,
       "value": "\"visa_logo\""
     }
