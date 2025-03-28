@@ -31,7 +31,7 @@
        dependencies: [
            .package(
                url: "https://github.com/BrightwellPayments/readyremit-sdk-ios",
-               .branch("9.1")
+               .branch("9.2")
            )
        ],
        targets: [

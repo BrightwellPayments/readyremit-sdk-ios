@@ -134,18 +134,63 @@ extension ReadyRemitSDK.Reachability {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor final public func launch(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)? = nil, rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil)
-  @_Concurrency.MainActor final public func launch(onLoad: @escaping (SwiftUICore.AnyView) -> Swift.Void, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)? = nil, rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil)
-  @objc @_Concurrency.MainActor final public func launchObjc(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)? = nil, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod)
-  @objc @_Concurrency.MainActor final public func launchObjc(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)?)
-  @_Concurrency.MainActor final public func launchTransferDetails(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, transferId: Swift.String, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)?)
-  @objc @_Concurrency.MainActor final public func launchTransferDetailsObjc(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, transferId: Swift.String, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)?)
-  @objc @_Concurrency.MainActor final public func close(afterSeconds time: Swift.Double, onExpireDo: @escaping () -> Swift.Void = { })
+  @_Concurrency.MainActor final public func startSDK(delegate: any ReadyRemitSDK.ReadyRemitDelegate, configuration: ReadyRemitSDK.RRMConfiguration = .init(), onLoad: @escaping (SwiftUICore.AnyView) -> Swift.Void)
+  @objc @_Concurrency.MainActor final public func launchSDK(in navigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, configuration: ReadyRemitSDK.RRMConfiguration = .init())
+  @_Concurrency.MainActor final public func showTransfer(transferId: Swift.String, delegate: any ReadyRemitSDK.ReadyRemitDelegate, configuration: ReadyRemitSDK.RRMConfiguration = .init(), onLoad: @escaping (SwiftUICore.AnyView) -> Swift.Void)
+  @objc @_Concurrency.MainActor final public func showTransfer(in navigation: UIKit.UINavigationController, transferId: Swift.String, delegate: any ReadyRemitSDK.ReadyRemitDelegate, configuration: ReadyRemitSDK.RRMConfiguration = .init())
   @objc @_Concurrency.MainActor final public func close()
+  @available(*, deprecated, message: "Use startSDK(delegate: _, configuration:_, onLoad: _) instead")
+  @_Concurrency.MainActor final public func launch(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)? = nil, rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil)
+  @available(*, deprecated, message: "Use startSDK(delegate: _, configuration:_, onLoad: _) instead")
+  @_Concurrency.MainActor final public func launch(onLoad: @escaping (SwiftUICore.AnyView) -> Swift.Void, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)? = nil, rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil)
+  @available(*, deprecated, message: "Use launchSDK(in: _, delegate: _, configuration: _) instead")
+  @available(*, deprecated)
+  @objc @_Concurrency.MainActor final public func launchObjc(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)? = nil, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod)
+  @available(*, deprecated, message: "Use launchSDK(in: _, delegate: _, configuration: _) instead")
+  @objc @_Concurrency.MainActor final public func launchObjc(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)?)
+  @available(*, deprecated, message: "Use startSDK(delegate: _, configuration:_, onLoad: _) instead and se the timeout on the configuration")
+  @objc @_Concurrency.MainActor final public func close(afterSeconds time: Swift.Double, onExpireDo: @escaping () -> Swift.Void = { })
+  @available(*, deprecated, message: "Use showTransfer(transferId: _, delegate: _, configuration: _, onLoad: _) instead")
+  @_Concurrency.MainActor final public func launchTransferDetails(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, transferId: Swift.String, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)?)
+  @available(*, deprecated, message: "Use showTransfer(in: _, transferId: _, delegate: _, configuration: _) instead")
+  @objc @_Concurrency.MainActor final public func launchTransferDetailsObjc(inNavigation: UIKit.UINavigationController, delegate: any ReadyRemitSDK.ReadyRemitDelegate, transferId: Swift.String, onLaunch: (() -> Swift.Void)?, onDismiss: (() -> Swift.Void)?)
+  @available(*, deprecated, message: "Use startSDK(delegate: _, configuration:_, onLoad: _) instead, and provide language on configuration")
   @objc @_Concurrency.MainActor final public func languageSelected(_ lang: Swift.String)
+  @available(*, deprecated, message: "Use startSDK(delegate: _, configuration:_, onLoad: _) instead and provide the date format on configuration")
   @objc @_Concurrency.MainActor final public func dateFormatSelected(_ format: Swift.String)
   @_Concurrency.MainActor @objc override dynamic public init()
   @objc deinit
+}
+@objc final public class RRMConfiguration : ObjectiveC.NSObject {
+  final public var environment: ReadyRemitSDK.ReadyRemitEnvironment
+  final public var language: ReadyRemitSDK.RRMLocale
+  final public var dateFormat: ReadyRemitSDK.ReadyRemitDateFormats
+  final public var appearance: ReadyRemitSDK.ReadyRemitAppearance
+  final public var rsp: ReadyRemitSDK.RSP?
+  final public var singleMethod: ReadyRemitSDK.TransferMethod?
+  final public var closeAfterInactivityTime: Swift.Double?
+  final public var balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck?
+  final public var onLaunch: (() -> Swift.Void)?
+  final public var onDismiss: (() -> Swift.Void)?
+  public init(environment: ReadyRemitSDK.ReadyRemitEnvironment = .production, language: ReadyRemitSDK.RRMLocale = .enUS, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats = .locale, appearance: ReadyRemitSDK.ReadyRemitAppearance = .init(), rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil, closeAfterInactivityTime: Swift.Double? = nil, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck? = nil, onLaunch: (() -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
+  @objc final public class BalanceCheck : ObjectiveC.NSObject {
+    final public var alias: Swift.String
+    final public var last4: Swift.String
+    final public var balance: Swift.Double
+    final public var externalId: Swift.String
+    public init(alias: Swift.String, last4: Swift.String, balance: Swift.Double, externalId: Swift.String)
+    @objc deinit
+  }
+  @objc deinit
+}
+@objc public enum RRMLocale : Swift.Int, Swift.Sendable {
+  case enUS
+  case esMX
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 
 extension UIKit.UIColor {
@@ -156,6 +201,7 @@ extension UIKit.UIColor {
   @objc deinit
   required public init(from decoder: any Swift.Decoder) throws
 }
+
 @objc public enum TransferMethod : Swift.Int, Swift.Sendable {
   case BANK_ACCOUNT
   case CASH_PICKUP
@@ -197,7 +243,7 @@ final public class ReadyRemitColorScheme : Swift.Sendable {
   @objc optional func onSDKClose()
 }
 extension ReadyRemitSDK.ReadyRemit {
-  @objc public class TransferRequest : ObjectiveC.NSObject, Swift.Encodable {
+  @objc final public class TransferRequest : ObjectiveC.NSObject, Swift.Encodable, Swift.Sendable {
     @objc final public let dstCountryIso3Code: Swift.String
     @objc final public let dstCurrencyIso3Code: Swift.String
     @objc final public let srcCurrencyIso3Code: Swift.String
@@ -209,13 +255,13 @@ extension ReadyRemitSDK.ReadyRemit {
     @objc final public let recipientAccountId: Swift.String?
     @objc final public let fields: [ReadyRemitSDK.ReadyRemit.RequestField]?
     @objc final public let quoteHistoryId: Swift.String?
-    @objc public var sourceAccountId: Swift.String?
+    @objc final public let sourceAccountId: Swift.String?
     @objc public init(dstCountryIso3Code: Swift.String, dstCurrencyIso3Code: Swift.String, srcCurrencyIso3Code: Swift.String, transferMethod: Swift.String, quoteBy: Swift.String, amount: Swift.Int, fee: Swift.Int, recipientId: Swift.String, recipientAccountId: Swift.String?, fields: [ReadyRemitSDK.ReadyRemit.RequestField]?, quoteHistoryId: Swift.String, sourceAccountId: Swift.String? = nil)
-    @objc public func toJSON() -> Swift.String?
+    @objc final public func toJSON() -> Swift.String?
     @objc deinit
-    public func encode(to encoder: any Swift.Encoder) throws
+    final public func encode(to encoder: any Swift.Encoder) throws
   }
-  @objc public class RequestField : ObjectiveC.NSObject, Swift.Codable {
+  @objc public class RequestField : ObjectiveC.NSObject, Swift.Codable, @unchecked Swift.Sendable {
     @objc final public let id: Swift.String
     @objc final public let name: Swift.String
     @objc final public let type: Swift.String
@@ -264,6 +310,9 @@ extension ReadyRemitSDK.Reachability.Connection : Swift.Hashable {}
 extension ReadyRemitSDK.ReadyRemitEnvironment : Swift.Equatable {}
 extension ReadyRemitSDK.ReadyRemitEnvironment : Swift.Hashable {}
 extension ReadyRemitSDK.ReadyRemitEnvironment : Swift.RawRepresentable {}
+extension ReadyRemitSDK.RRMLocale : Swift.Equatable {}
+extension ReadyRemitSDK.RRMLocale : Swift.Hashable {}
+extension ReadyRemitSDK.RRMLocale : Swift.RawRepresentable {}
 extension ReadyRemitSDK.TransferMethod : Swift.Equatable {}
 extension ReadyRemitSDK.TransferMethod : Swift.Hashable {}
 extension ReadyRemitSDK.TransferMethod : Swift.RawRepresentable {}

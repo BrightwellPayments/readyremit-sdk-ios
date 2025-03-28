@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Oj31Yzqk49fH2AKO2Ue5jWWD9jQ=
+		GISZxTrWfpCKsH2YW+FUhYRRYWo=
 		</data>
 		<key>CountriesAndConcurrencies.json</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/ReadyRemitSDK-Swift.h</key>
 		<data>
-		/z+rdCfWMetqgiwJ6GLeanmaRf0=
+		0JXItOpBJPa/Luej2zcOj1mrJ2M=
 		</data>
 		<key>Headers/ReadyRemitSDK.h</key>
 		<data>
@@ -38,47 +38,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J4rKdVZ6JM+iT9yowkTJ0XSL4KI=
+		RmjE6+X5QJEWFu65T5+hABxkB5o=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iGl2jSz2rrsCoJHlRiNhsd53J0Q=
+		9Dc9mmc6+OYZUWWIG3vlZ9845OE=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Q28jUS6BnffjyWRffPq3736bAGY=
+		SJuz5mnfQeb/Plf0+TkHaRRDcc4=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/3v99tnfK22hjjOJYc+0zUUbdUA=
+		DLsSbIgbuPMM6lWVsIeWQzc5DzE=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Q28jUS6BnffjyWRffPq3736bAGY=
+		SJuz5mnfQeb/Plf0+TkHaRRDcc4=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V0j8SPf2wo5iO92gDwTHLXfkin4=
+		w8yRVovM/fovA/+AjUUbs6yAOUE=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iGl2jSz2rrsCoJHlRiNhsd53J0Q=
+		9Dc9mmc6+OYZUWWIG3vlZ9845OE=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		toJjGhBEAlTQchg2r6YW4w4LVLM=
+		2J8B21+o/mjQUvcqGg/ZBqVqEqI=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EfYFuNAn7f3OSCYnOLsr5bj+feU=
+		gU0uCdDuE3TPZ4yxsPyzDuUMIuA=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		toJjGhBEAlTQchg2r6YW4w4LVLM=
+		2J8B21+o/mjQUvcqGg/ZBqVqEqI=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ol3RxAHtBhCWz/O9t0BMILI3PIk=
+		acXYioOXxzT7lljVzUU7h8atyVc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>ReadyRemitSDK.plist</key>
 		<data>
-		xoKeBOgm1IbLOpbMXby5BihzPc8=
+		0vBRI7cqSpZjBeWz19Obz0C4JRE=
 		</data>
 		<key>SF-Pro-Text-Bold.otf</key>
 		<data>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rr5U4/mcw9DNLV/FmkIYYXnmZH4=
+			XzRieXrPmO9VGx/+yyozmavugCw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kL8dAYWKT4mhDqUHKgVtBwzqyCzuA4ECbqJ/cO8bLYU=
+			SzM+l3E8BqLDcjgymtqIq791+NHVtekjXgPQ/zD/syg=
 			</data>
 		</dict>
 		<key>CountriesAndConcurrencies.json</key>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3rtkQ/gvEjh51Y7Ra+SoKdqlKAt9xYG1+lVZ3ZhNYyg=
+			USR/oymv8H3NZV1cPpl/w1RUxYdV6woImUdE4R1o5bw=
 			</data>
 		</dict>
 		<key>Headers/ReadyRemitSDK.h</key>
@@ -185,70 +185,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGh7xmRra8y1L6UAcZm/7sC4G8yCFzje/Qc2PV+WGQY=
+			H8GH6YaRvKQ/I6vnunJYbShuQdbmmgycSRuNDw/gL5Q=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3oNIXaa7ob/Cu0ghBqiv5EziPIdvsQf0xiQTX7QR4Wk=
+			I8Pi2ELWxPleg8PyWxLLRACjuUux84u4BujKmQWaLv4=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TZjvK6vjT+vRqyl2xhpYNP9wCR+UAcawTy1n7/rO3u0=
+			t9Z6D1VyT4ws0Qs6+fgyFvEPibJ9TFpcI5MJF1Pcsp0=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3oNIXaa7ob/Cu0ghBqiv5EziPIdvsQf0xiQTX7QR4Wk=
+			I8Pi2ELWxPleg8PyWxLLRACjuUux84u4BujKmQWaLv4=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gxdaNeOzax0zXmU6ah133FuewsjuB1sN2C+SQwnQQvc=
+			RKCL86Qt+nyL+vOSKyWLfRzajOld9e2nfZplEJJ5eo0=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGh7xmRra8y1L6UAcZm/7sC4G8yCFzje/Qc2PV+WGQY=
+			H8GH6YaRvKQ/I6vnunJYbShuQdbmmgycSRuNDw/gL5Q=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			62cFh8529AnldE0RB8uAu/9fbLB8IosSDPogZ52NuVo=
+			s0pYmcrVp1icPMniutWZ5MiqzG7rzALyHx8vDJeeOoM=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRmsaQlsUrEs8kbiruMzhvvtKrXHKsxFvr0FgzZh8U0=
+			rTs5+fMWZr1I+RFgHmdeZVyUMJf1j7Vd5JgKG72J0FU=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			62cFh8529AnldE0RB8uAu/9fbLB8IosSDPogZ52NuVo=
+			s0pYmcrVp1icPMniutWZ5MiqzG7rzALyHx8vDJeeOoM=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VEgBwtdNLVWOZOAsWheCVOgXue9Pk0IXjHxt3fgrGgc=
+			ku+lEZKi9fL4CuhvTvxmfUxPYX/Brs60qzNAzQc7QxA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -269,7 +269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LUY7zIn9VvylTZVJ/qg3Tp8UnLG4Zl3IzlXUnDFKzxo=
+			IqhRkYE5c+GwVXEPJiqJPUREr+0Tdx4AdOazmJ2JAjg=
 			</data>
 		</dict>
 		<key>SF-Pro-Text-Bold.otf</key>
@@ -306,7 +306,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9h5y7XVbF2vf8DC9EmMJ7IKbm8NUNJEMe+kktLkltQ=
+			cz8ZFiK50sYQT3G+PaJEwePeMwJiZbFi4rGij4Koe2Y=
 			</data>
 			<key>optional</key>
 			<true/>
