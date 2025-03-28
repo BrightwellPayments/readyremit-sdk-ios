@@ -533,6 +533,17 @@
       },
       {
         "kind": "Import",
+        "name": "CombineSchedulers",
+        "printedName": "CombineSchedulers",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2795,6 +2806,16 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -3623,6 +3644,238 @@
           },
           {
             "kind": "Function",
+            "name": "startSDK",
+            "printedName": "startSDK(delegate:configuration:onLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitDelegate",
+                "printedName": "any ReadyRemitSDK.ReadyRemitDelegate",
+                "usr": "c:@M@ReadyRemitSDK@objc(pl)ReadyRemitDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RRMConfiguration",
+                "printedName": "ReadyRemitSDK.RRMConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftUI.AnyView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ReadyRemitSDK0aB0C05startC08delegate13configuration6onLoadyAA0aB8Delegate_p_AA16RRMConfigurationCy7SwiftUI7AnyViewVctF",
+            "mangledName": "$s13ReadyRemitSDK0aB0C05startC08delegate13configuration6onLoadyAA0aB8Delegate_p_AA16RRMConfigurationCy7SwiftUI7AnyViewVctF",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchSDK",
+            "printedName": "launchSDK(in:delegate:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitDelegate",
+                "printedName": "any ReadyRemitSDK.ReadyRemitDelegate",
+                "usr": "c:@M@ReadyRemitSDK@objc(pl)ReadyRemitDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RRMConfiguration",
+                "printedName": "ReadyRemitSDK.RRMConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)launchSDKIn:delegate:configuration:",
+            "mangledName": "$s13ReadyRemitSDK0aB0C06launchC02in8delegate13configurationySo22UINavigationControllerC_AA0aB8Delegate_pAA16RRMConfigurationCtF",
+            "moduleName": "ReadyRemitSDK",
+            "objc_name": "launchSDKIn:delegate:configuration:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTransfer",
+            "printedName": "showTransfer(transferId:delegate:configuration:onLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitDelegate",
+                "printedName": "any ReadyRemitSDK.ReadyRemitDelegate",
+                "usr": "c:@M@ReadyRemitSDK@objc(pl)ReadyRemitDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RRMConfiguration",
+                "printedName": "ReadyRemitSDK.RRMConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftUI.AnyView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ReadyRemitSDK0aB0C12showTransfer10transferId8delegate13configuration6onLoadySS_AA0aB8Delegate_pAA16RRMConfigurationCy7SwiftUI7AnyViewVctF",
+            "mangledName": "$s13ReadyRemitSDK0aB0C12showTransfer10transferId8delegate13configuration6onLoadySS_AA0aB8Delegate_pAA16RRMConfigurationCy7SwiftUI7AnyViewVctF",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTransfer",
+            "printedName": "showTransfer(in:transferId:delegate:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitDelegate",
+                "printedName": "any ReadyRemitSDK.ReadyRemitDelegate",
+                "usr": "c:@M@ReadyRemitSDK@objc(pl)ReadyRemitDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RRMConfiguration",
+                "printedName": "ReadyRemitSDK.RRMConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)showTransferIn:transferId:delegate:configuration:",
+            "mangledName": "$s13ReadyRemitSDK0aB0C12showTransfer2in10transferId8delegate13configurationySo22UINavigationControllerC_SSAA0aB8Delegate_pAA16RRMConfigurationCtF",
+            "moduleName": "ReadyRemitSDK",
+            "objc_name": "showTransferIn:transferId:delegate:configuration:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)close",
+            "mangledName": "$s13ReadyRemitSDK0aB0C5closeyyF",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "launch",
             "printedName": "launch(inNavigation:delegate:onLaunch:onDismiss:rsp:singleMethod:)",
             "children": [
@@ -3729,10 +3982,12 @@
             "usr": "s:13ReadyRemitSDK0aB0C6launch12inNavigation8delegate8onLaunch0H7Dismiss3rsp12singleMethodySo22UINavigationControllerC_AA0aB8Delegate_pyycSgAnA3RSPOSgAA08TransferM0OSgtF",
             "mangledName": "$s13ReadyRemitSDK0aB0C6launch12inNavigation8delegate8onLaunch0H7Dismiss3rsp12singleMethodySo22UINavigationControllerC_AA0aB8Delegate_pyycSgAnA3RSPOSgAA08TransferM0OSgtF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -3857,11 +4112,12 @@
             "usr": "s:13ReadyRemitSDK0aB0C6launch6onLoad8delegate0E6Launch0E7Dismiss3rsp12singleMethodyy7SwiftUI7AnyViewVc_AA0aB8Delegate_pyycSgAoA3RSPOSgAA08TransferL0OSgtF",
             "mangledName": "$s13ReadyRemitSDK0aB0C6launch6onLoad8delegate0E6Launch0E7Dismiss3rsp12singleMethodyy7SwiftUI7AnyViewVc_AA0aB8Delegate_pyycSgAoA3RSPOSgAA08TransferL0OSgtF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
-              "RawDocComment"
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3955,13 +4211,15 @@
             "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)launchObjcInNavigation:delegate:onLaunch:onDismiss:rsp:singleMethod:",
             "mangledName": "$s13ReadyRemitSDK0aB0C10launchObjc12inNavigation8delegate8onLaunch0I7Dismiss3rsp12singleMethodySo22UINavigationControllerC_AA0aB8Delegate_pyycSgAnA3RSPOAA08TransferN0OtF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "objc_name": "launchObjcInNavigation:delegate:onLaunch:onDismiss:rsp:singleMethod:",
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
               "ObjC",
-              "RawDocComment"
+              "Available",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4042,13 +4300,65 @@
             "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)launchObjcInNavigation:delegate:onLaunch:onDismiss:",
             "mangledName": "$s13ReadyRemitSDK0aB0C10launchObjc12inNavigation8delegate8onLaunch0I7DismissySo22UINavigationControllerC_AA0aB8Delegate_pyycSgALtF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "objc_name": "launchObjcInNavigation:delegate:onLaunch:onDismiss:",
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
               "ObjC",
+              "Available",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close(afterSeconds:onExpireDo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)closeAfterSeconds:onExpireDo:",
+            "mangledName": "$s13ReadyRemitSDK0aB0C5close12afterSeconds10onExpireDoySd_yyctF",
+            "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
+            "objc_name": "closeAfterSeconds:onExpireDo:",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4135,11 +4445,12 @@
             "usr": "s:13ReadyRemitSDK0aB0C21launchTransferDetails12inNavigation8delegate10transferId8onLaunch0L7DismissySo22UINavigationControllerC_AA0aB8Delegate_pSSyycSgAMtF",
             "mangledName": "$s13ReadyRemitSDK0aB0C21launchTransferDetails12inNavigation8delegate10transferId8onLaunch0L7DismissySo22UINavigationControllerC_AA0aB8Delegate_pSSyycSgAMtF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "declAttributes": [
               "Custom",
               "Final",
               "AccessControl",
-              "RawDocComment"
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4226,84 +4537,14 @@
             "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)launchTransferDetailsObjcInNavigation:delegate:transferId:onLaunch:onDismiss:",
             "mangledName": "$s13ReadyRemitSDK0aB0C25launchTransferDetailsObjc12inNavigation8delegate10transferId8onLaunch0M7DismissySo22UINavigationControllerC_AA0aB8Delegate_pSSyycSgAMtF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "objc_name": "launchTransferDetailsObjcInNavigation:delegate:transferId:onLaunch:onDismiss:",
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
               "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "close",
-            "printedName": "close(afterSeconds:onExpireDo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "hasDefaultArg": true
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)closeAfterSeconds:onExpireDo:",
-            "mangledName": "$s13ReadyRemitSDK0aB0C5close12afterSeconds10onExpireDoySd_yyctF",
-            "moduleName": "ReadyRemitSDK",
-            "objc_name": "closeAfterSeconds:onExpireDo:",
-            "declAttributes": [
-              "Final",
-              "Custom",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "close",
-            "printedName": "close()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)close",
-            "mangledName": "$s13ReadyRemitSDK0aB0C5closeyyF",
-            "moduleName": "ReadyRemitSDK",
-            "declAttributes": [
-              "Final",
-              "Custom",
-              "AccessControl",
-              "ObjC"
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4328,11 +4569,13 @@
             "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)languageSelected:",
             "mangledName": "$s13ReadyRemitSDK0aB0C16languageSelectedyySSF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4357,11 +4600,13 @@
             "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemit(im)dateFormatSelected:",
             "mangledName": "$s13ReadyRemitSDK0aB0C18dateFormatSelectedyySSF",
             "moduleName": "ReadyRemitSDK",
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5036,11 +5281,12 @@
                 "mangledName": "$s13ReadyRemitSDK0aB0C15TransferRequestC15sourceAccountIdSSSgvp",
                 "moduleName": "ReadyRemitSDK",
                 "declAttributes": [
-                  "HasInitialValue",
+                  "Final",
                   "HasStorage",
                   "AccessControl",
                   "ObjC"
                 ],
+                "isLet": true,
                 "hasStorage": true,
                 "accessors": [
                   {
@@ -5069,62 +5315,10 @@
                     "moduleName": "ReadyRemitSDK",
                     "implicit": true,
                     "declAttributes": [
+                      "Final",
                       "ObjC"
                     ],
                     "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:13ReadyRemitSDK0aB0C15TransferRequestC15sourceAccountIdSSSgvs",
-                    "mangledName": "$s13ReadyRemitSDK0aB0C15TransferRequestC15sourceAccountIdSSSgvs",
-                    "moduleName": "ReadyRemitSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "ObjC"
-                    ],
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:13ReadyRemitSDK0aB0C15TransferRequestC15sourceAccountIdSSSgvM",
-                    "mangledName": "$s13ReadyRemitSDK0aB0C15TransferRequestC15sourceAccountIdSSSgvM",
-                    "moduleName": "ReadyRemitSDK",
-                    "implicit": true,
-                    "accessorKind": "_modify"
                   }
                 ]
               },
@@ -5281,6 +5475,7 @@
                 "mangledName": "$s13ReadyRemitSDK0aB0C15TransferRequestC6toJSONSSSgyF",
                 "moduleName": "ReadyRemitSDK",
                 "declAttributes": [
+                  "Final",
                   "AccessControl",
                   "ObjC"
                 ],
@@ -5334,6 +5529,9 @@
                 "mangledName": "$s13ReadyRemitSDK0aB0C15TransferRequestC6encode2toys7Encoder_p_tKF",
                 "moduleName": "ReadyRemitSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "throwing": true,
                 "funcSelfKind": "NonMutating"
               }
@@ -5343,6 +5541,7 @@
             "mangledName": "$s13ReadyRemitSDK0aB0C15TransferRequestC",
             "moduleName": "ReadyRemitSDK",
             "declAttributes": [
+              "Final",
               "AccessControl",
               "ObjC"
             ],
@@ -5358,6 +5557,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               },
               {
                 "kind": "Conformance",
@@ -5843,6 +6049,13 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Copyable",
                 "printedName": "Copyable",
                 "usr": "s:s8CopyableP",
@@ -5992,6 +6205,2209 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RRMConfiguration",
+        "printedName": "RRMConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitEnvironment",
+                "printedName": "ReadyRemitSDK.ReadyRemitEnvironment",
+                "usr": "c:@M@ReadyRemitSDK@E@ReadyRemitEnvironment"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadyRemitEnvironment",
+                    "printedName": "ReadyRemitSDK.ReadyRemitEnvironment",
+                    "usr": "c:@M@ReadyRemitSDK@E@ReadyRemitEnvironment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadyRemitEnvironment",
+                    "printedName": "ReadyRemitSDK.ReadyRemitEnvironment",
+                    "usr": "c:@M@ReadyRemitSDK@E@ReadyRemitEnvironment"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC11environmentAA0aB11EnvironmentOvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RRMLocale",
+                "printedName": "ReadyRemitSDK.RRMLocale",
+                "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RRMLocale",
+                    "printedName": "ReadyRemitSDK.RRMLocale",
+                    "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RRMLocale",
+                    "printedName": "ReadyRemitSDK.RRMLocale",
+                    "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8languageAA9RRMLocaleOvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateFormat",
+            "printedName": "dateFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitDateFormats",
+                "printedName": "ReadyRemitSDK.ReadyRemitDateFormats",
+                "usr": "s:13ReadyRemitSDK0aB11DateFormatsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadyRemitDateFormats",
+                    "printedName": "ReadyRemitSDK.ReadyRemitDateFormats",
+                    "usr": "s:13ReadyRemitSDK0aB11DateFormatsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadyRemitDateFormats",
+                    "printedName": "ReadyRemitSDK.ReadyRemitDateFormats",
+                    "usr": "s:13ReadyRemitSDK0aB11DateFormatsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10dateFormatAA0aB11DateFormatsOvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitAppearance",
+                "printedName": "ReadyRemitSDK.ReadyRemitAppearance",
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemitAppearance"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadyRemitAppearance",
+                    "printedName": "ReadyRemitSDK.ReadyRemitAppearance",
+                    "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemitAppearance"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadyRemitAppearance",
+                    "printedName": "ReadyRemitSDK.ReadyRemitAppearance",
+                    "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemitAppearance"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC10appearanceAA0aB10AppearanceCvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rsp",
+            "printedName": "rsp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.RSP?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RSP",
+                    "printedName": "ReadyRemitSDK.RSP",
+                    "usr": "c:@M@ReadyRemitSDK@E@RSP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReadyRemitSDK.RSP?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RSP",
+                        "printedName": "ReadyRemitSDK.RSP",
+                        "usr": "c:@M@ReadyRemitSDK@E@RSP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReadyRemitSDK.RSP?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RSP",
+                        "printedName": "ReadyRemitSDK.RSP",
+                        "usr": "c:@M@ReadyRemitSDK@E@RSP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC3rspAA3RSPOSgvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "singleMethod",
+            "printedName": "singleMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.TransferMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferMethod",
+                    "printedName": "ReadyRemitSDK.TransferMethod",
+                    "usr": "c:@M@ReadyRemitSDK@E@TransferMethod"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReadyRemitSDK.TransferMethod?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferMethod",
+                        "printedName": "ReadyRemitSDK.TransferMethod",
+                        "usr": "c:@M@ReadyRemitSDK@E@TransferMethod"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReadyRemitSDK.TransferMethod?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferMethod",
+                        "printedName": "ReadyRemitSDK.TransferMethod",
+                        "usr": "c:@M@ReadyRemitSDK@E@TransferMethod"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12singleMethodAA08TransferF0OSgvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeAfterInactivityTime",
+            "printedName": "closeAfterInactivityTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC24closeAfterInactivityTimeSdSgvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "balanceCheck",
+            "printedName": "balanceCheck",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCheck",
+                    "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceCheck",
+                        "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck",
+                        "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BalanceCheck",
+                        "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck",
+                        "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12balanceCheckAC07BalanceF0CSgvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onLaunch",
+            "printedName": "onLaunch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC8onLaunchyycSgvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDismiss",
+            "printedName": "onDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvp",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvp",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvg",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvs",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvs",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvM",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC9onDismissyycSgvM",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:language:dateFormat:appearance:rsp:singleMethod:closeAfterInactivityTime:balanceCheck:onLaunch:onDismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RRMConfiguration",
+                "printedName": "ReadyRemitSDK.RRMConfiguration",
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitEnvironment",
+                "printedName": "ReadyRemitSDK.ReadyRemitEnvironment",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@E@ReadyRemitEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RRMLocale",
+                "printedName": "ReadyRemitSDK.RRMLocale",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitDateFormats",
+                "printedName": "ReadyRemitSDK.ReadyRemitDateFormats",
+                "hasDefaultArg": true,
+                "usr": "s:13ReadyRemitSDK0aB11DateFormatsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadyRemitAppearance",
+                "printedName": "ReadyRemitSDK.ReadyRemitAppearance",
+                "hasDefaultArg": true,
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)ReadyRemitAppearance"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.RSP?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RSP",
+                    "printedName": "ReadyRemitSDK.RSP",
+                    "usr": "c:@M@ReadyRemitSDK@E@RSP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.TransferMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferMethod",
+                    "printedName": "ReadyRemitSDK.TransferMethod",
+                    "usr": "c:@M@ReadyRemitSDK@E@TransferMethod"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCheck",
+                    "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC11environment8language10dateFormat10appearance3rsp12singleMethod24closeAfterInactivityTime12balanceCheck8onLaunch0S7DismissAcA0aB11EnvironmentO_AA9RRMLocaleOAA0aB11DateFormatsOAA0aB10AppearanceCAA3RSPOSgAA08TransferL0OSgSdSgAC07BalanceR0CSgyycSgA4_tcfc",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC11environment8language10dateFormat10appearance3rsp12singleMethod24closeAfterInactivityTime12balanceCheck8onLaunch0S7DismissAcA0aB11EnvironmentO_AA9RRMLocaleOAA0aB11DateFormatsOAA0aB10AppearanceCAA3RSPOSgAA08TransferL0OSgSdSgAC07BalanceR0CSgyycSgA4_tcfc",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "BalanceCheck",
+            "printedName": "BalanceCheck",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "alias",
+                "printedName": "alias",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvp",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvp",
+                "moduleName": "ReadyRemitSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvg",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvg",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvs",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvs",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvM",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5aliasSSvM",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "last4",
+                "printedName": "last4",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvp",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvp",
+                "moduleName": "ReadyRemitSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvg",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvg",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvs",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvs",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvM",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5last4SSvM",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "balance",
+                "printedName": "balance",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvp",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvp",
+                "moduleName": "ReadyRemitSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvg",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvg",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvs",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvs",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvM",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC7balanceSdvM",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "externalId",
+                "printedName": "externalId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvp",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvp",
+                "moduleName": "ReadyRemitSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvg",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvg",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvs",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvs",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvM",
+                    "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC10externalIdSSvM",
+                    "moduleName": "ReadyRemitSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(alias:last4:balance:externalId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCheck",
+                    "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5alias5last47balance10externalIdAESS_SSSdSStcfc",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5alias5last47balance10externalIdAESS_SSSdSStcfc",
+                "moduleName": "ReadyRemitSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BalanceCheck",
+                    "printedName": "ReadyRemitSDK.RRMConfiguration.BalanceCheck",
+                    "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckCAEycfc",
+                "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckCAEycfc",
+                "moduleName": "ReadyRemitSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RRMConfiguration",
+                "printedName": "ReadyRemitSDK.RRMConfiguration",
+                "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration(im)init",
+            "mangledName": "$s13ReadyRemitSDK16RRMConfigurationCACycfc",
+            "moduleName": "ReadyRemitSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ReadyRemitSDK@objc(cs)RRMConfiguration",
+        "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RRMLocale",
+        "printedName": "RRMLocale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enUS",
+            "printedName": "enUS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReadyRemitSDK.RRMLocale.Type) -> ReadyRemitSDK.RRMLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RRMLocale",
+                    "printedName": "ReadyRemitSDK.RRMLocale",
+                    "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReadyRemitSDK.RRMLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RRMLocale",
+                        "printedName": "ReadyRemitSDK.RRMLocale",
+                        "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ReadyRemitSDK@E@RRMLocale@RRMLocaleEnUS",
+            "mangledName": "$s13ReadyRemitSDK9RRMLocaleO4enUSyA2CmF",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "esMX",
+            "printedName": "esMX",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReadyRemitSDK.RRMLocale.Type) -> ReadyRemitSDK.RRMLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RRMLocale",
+                    "printedName": "ReadyRemitSDK.RRMLocale",
+                    "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReadyRemitSDK.RRMLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RRMLocale",
+                        "printedName": "ReadyRemitSDK.RRMLocale",
+                        "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@ReadyRemitSDK@E@RRMLocale@RRMLocaleEsMX",
+            "mangledName": "$s13ReadyRemitSDK9RRMLocaleO4esMXyA2CmF",
+            "moduleName": "ReadyRemitSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReadyRemitSDK.RRMLocale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RRMLocale",
+                    "printedName": "ReadyRemitSDK.RRMLocale",
+                    "usr": "c:@M@ReadyRemitSDK@E@RRMLocale"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ReadyRemitSDK9RRMLocaleO8rawValueACSgSi_tcfc",
+            "mangledName": "$s13ReadyRemitSDK9RRMLocaleO8rawValueACSgSi_tcfc",
+            "moduleName": "ReadyRemitSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ReadyRemitSDK9RRMLocaleO8rawValueSivp",
+            "mangledName": "$s13ReadyRemitSDK9RRMLocaleO8rawValueSivp",
+            "moduleName": "ReadyRemitSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ReadyRemitSDK9RRMLocaleO8rawValueSivg",
+                "mangledName": "$s13ReadyRemitSDK9RRMLocaleO8rawValueSivg",
+                "moduleName": "ReadyRemitSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@ReadyRemitSDK@E@RRMLocale",
+        "mangledName": "$s13ReadyRemitSDK9RRMLocaleO",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -6477,13 +8893,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6708,6 +9117,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6904,6 +9323,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK"
       },
       {
         "kind": "Import",
@@ -7258,23 +9684,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -7476,50 +9885,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "LaunchDarkly",
-        "printedName": "LaunchDarkly",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CombineSchedulers",
-        "printedName": "CombineSchedulers",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7616,6 +9981,16 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
@@ -10745,6 +13120,16 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -11127,22 +13512,13 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Swinject",
+        "printedName": "Swinject",
         "declKind": "Import",
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "LaunchDarkly",
-        "printedName": "LaunchDarkly",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -11346,27 +13722,6 @@
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Swinject",
-        "printedName": "Swinject",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwinjectAutoregistration",
-        "printedName": "SwinjectAutoregistration",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -11873,6 +14228,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -11948,8 +14313,59 @@
       },
       {
         "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwinjectAutoregistration",
+        "printedName": "SwinjectAutoregistration",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
@@ -11975,63 +14391,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "ReadyRemitSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -12064,6 +14423,16 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
@@ -12129,6 +14498,16 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -12245,6 +14624,16 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
@@ -12589,6 +14978,26 @@
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Swinject",
+        "printedName": "Swinject",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -13259,7 +15668,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/StartTransfer\/StartTransferViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10661,
+      "offset": 11607,
       "length": 5,
       "value": "false"
     },
@@ -13369,6 +15778,27 @@
       "value": "\"SenderCardCreation - Refresh Tapped\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+PushToCard.swift",
+      "kind": "StringLiteral",
+      "offset": 823,
+      "length": 56,
+      "value": "\"RecipientCardCreation - Currency Mismatch Modal Viewed\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+PushToCard.swift",
+      "kind": "StringLiteral",
+      "offset": 922,
+      "length": 59,
+      "value": "\"RecipientCardCreation - Currency Mismatch Modal Dismissed\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+PushToCard.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 63,
+      "value": "\"RecipientCardCreation - Currency Mismatch Modal Action Tapped\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+BankDetails.swift",
       "kind": "StringLiteral",
       "offset": 275,
@@ -13406,7 +15836,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Navigation\/ReadyRemitViewFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 2943,
+      "offset": 3019,
       "length": 5,
       "value": "false"
     },
@@ -13567,7 +15997,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Navigation\/ReadyRemitRouter.swift",
       "kind": "Array",
-      "offset": 589,
+      "offset": 581,
       "length": 2,
       "value": "[]"
     },
@@ -14029,30 +16459,58 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3044,
+      "length": 37,
+      "value": "\"AccountCurrencyCodeDiscrepancyError\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3132,
       "length": 20,
       "value": "\"MinLimitOutOfRange\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3112,
+      "offset": 3184,
       "length": 26,
       "value": "\"MinLimitOutOfRangeFormat\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3242,
       "length": 20,
       "value": "\"MaxLimitOutOfRange\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3226,
+      "offset": 3298,
       "length": 98,
       "value": "\"https:\/\/docs.google.com\/document\/d\/16P5iCwoEzN0Bk8NlGorOIRXMmZJZxU-pm6N_xKn_Y8A\/edit?usp=sharing\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3447,
+      "length": 6,
+      "value": "\"visa\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 12,
+      "value": "\"mastercard\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 3520,
+      "length": 9,
+      "value": "\"maestro\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/Event.swift",
@@ -14284,6 +16742,13 @@
       "offset": 1926,
       "length": 14,
       "value": "\"System Error\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 18,
+      "value": "\"currencyMismatch\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/UserAction\/UserAction+RecipientList.swift",
@@ -14531,6 +16996,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/ReadyRemitFlowState.swift",
+      "kind": "Array",
+      "offset": 1183,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/CustomAlert\/CustomAlertView.swift",
       "kind": "StringLiteral",
       "offset": 128,
@@ -14701,23 +17173,16 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/ReadyRemit.swift",
       "kind": "BooleanLiteral",
-      "offset": 11538,
+      "offset": 17570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/ReadyRemit.swift",
-      "kind": "StringLiteral",
-      "offset": 11815,
-      "length": 7,
-      "value": "\"en-US\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/ReadyRemit.swift",
-      "kind": "StringLiteral",
-      "offset": 11839,
-      "length": 7,
-      "value": "\"es-MX\""
+      "kind": "IntegerLiteral",
+      "offset": 17873,
+      "length": 4,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/FieldIds.swift",
@@ -14953,21 +17418,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Business\/UseCase\/FetchMobileWalletProvidersUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 570,
       "length": 5,
       "value": "\"PHL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Business\/UseCase\/FetchMobileWalletProvidersUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 607,
       "length": 5,
       "value": "\"PHP\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Business\/UseCase\/FetchMobileWalletProvidersUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 642,
       "length": 15,
       "value": "\"MOBILE_WALLET\""
     },
@@ -15002,16 +17467,9 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/KYC\/KYCVerificationFlow\/KycScreen.swift",
       "kind": "StringLiteral",
-      "offset": 362,
+      "offset": 384,
       "length": 30,
       "value": "\"socure\/error\/ConsentDeclined\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/KYC\/KYCVerificationFlow\/KycScreen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 508,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Api\/LoggingAPI.swift",
@@ -15259,11 +17717,25 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/BottomSheetModal\/DeliveryMethodBottomSheetView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 322,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/Home\/HomeViewState.swift",
+      "kind": "Array",
+      "offset": 249,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/Home\/HomeViewState.swift",
+      "kind": "Array",
+      "offset": 293,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/Home\/HomeViewState.swift",
+      "kind": "Array",
+      "offset": 337,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/Model\/ReadyRemitObjcOAuthToken.swift",
@@ -15285,6 +17757,27 @@
       "offset": 423,
       "length": 12,
       "value": "\"expires_in\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/CardCreation\/RecipientCard\/Components\/CurrencyMismatchModal.swift",
+      "kind": "Array",
+      "offset": 5194,
+      "length": 14,
+      "value": "[\"USD\", \"MXN\"]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/CardCreation\/RecipientCard\/Components\/CurrencyMismatchModal.swift",
+      "kind": "StringLiteral",
+      "offset": 5229,
+      "length": 5,
+      "value": "\"BRL\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/CardCreation\/RecipientCard\/Components\/CurrencyMismatchModal.swift",
+      "kind": "StringLiteral",
+      "offset": 5254,
+      "length": 5,
+      "value": "\"MEX\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Data\/Model\/Request\/CardAccountRequest.swift",
@@ -15406,6 +17899,20 @@
       "value": "\"CASH_PICKUP_FIELDS\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Extensions\/Double+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 230,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/BottomSheetModal\/DeliveryMethodBottomSheetView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 322,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/Parameters\/TransferMethod.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
@@ -15432,13 +17939,6 @@
       "offset": 406,
       "length": 2,
       "value": "58"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/Home\/HomeViewPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 537,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
@@ -15968,7 +18468,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Data\/Repository\/AppInsightsRepository.swift",
       "kind": "StringLiteral",
-      "offset": 310,
+      "offset": 285,
       "length": 34,
       "value": "\"8DFA8282BFCF4B118B99029D17BFA381\""
     },
@@ -16248,21 +18748,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/DropdownList.swift",
       "kind": "StringLiteral",
-      "offset": 4358,
+      "offset": 4415,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/DropdownList.swift",
       "kind": "Array",
-      "offset": 4414,
+      "offset": 4471,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/DropdownList.swift",
       "kind": "Array",
-      "offset": 4470,
+      "offset": 4527,
       "length": 2,
       "value": "[]"
     },
@@ -16465,7 +18965,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/KYC\/KYCVerificationFlow\/KycViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 388,
+      "offset": 300,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/KYC\/KYCVerificationFlow\/KycViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 403,
       "length": 5,
       "value": "false"
     },
@@ -16797,6 +19304,62 @@
       "offset": 481,
       "length": 1,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 663,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 691,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 750,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 781,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Paddings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 2,
+      "value": "64"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Recipient.swift",
@@ -17382,9 +19945,30 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/CardBrandImageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 324,
+      "offset": 351,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/CardBrandImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/CardBrandImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 604,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/CardBrandImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 646,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Secrets\/JWTDecoder.swift",
@@ -17410,14 +19994,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/TransferReview\/TransferReviewInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1917,
+      "offset": 1819,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/TransferReview\/TransferReviewInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5937,
+      "offset": 5897,
       "length": 5,
       "value": "false"
     },
@@ -17443,30 +20027,51 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/CardCreation\/RecipientCard\/RecipientCardPageViewState.swift",
+      "kind": "Array",
+      "offset": 619,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/CardCreation\/RecipientCard\/RecipientCardPageViewState.swift",
+      "kind": "Array",
+      "offset": 668,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/CardCreation\/RecipientCard\/RecipientCardPageViewState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 721,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/RecipientBank\/RecipientBankInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1294,
+      "offset": 1201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/FeatureFlag\/FlagManager.swift",
       "kind": "StringLiteral",
-      "offset": 262,
+      "offset": 439,
       "length": 21,
       "value": "\"home-screen-v-2-sdk\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/FeatureFlag\/FlagManager.swift",
       "kind": "StringLiteral",
-      "offset": 309,
+      "offset": 486,
       "length": 31,
       "value": "\"readyremit-sdk-holiday-banner\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/FeatureFlag\/FlagManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1642,
+      "offset": 1829,
       "length": 5,
       "value": "false"
     },
@@ -17564,7 +20169,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Analytics.swift",
       "kind": "Dictionary",
-      "offset": 1656,
+      "offset": 1862,
       "length": 3,
       "value": "[]"
     },
@@ -17634,7 +20239,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/Widgets\/TermsAndConditionsBottomSheet.swift",
       "kind": "IntegerLiteral",
-      "offset": 3783,
+      "offset": 3884,
       "length": 1,
       "value": "0"
     },
@@ -17697,7 +20302,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/PickupLocation\/PickupLocationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 325,
+      "offset": 316,
       "length": 5,
       "value": "false"
     },
@@ -17761,20 +20366,6 @@
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/TransferSuccess\/TransferSuccessView.swift",
       "kind": "BooleanLiteral",
       "offset": 746,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/Home\/HomeViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 859,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/Home\/HomeViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1236,
       "length": 5,
       "value": "false"
     },
@@ -17872,210 +20463,210 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 8974,
+      "offset": 9066,
       "length": 12,
       "value": "\"PREFUNDING\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9006,
+      "offset": 9098,
       "length": 16,
       "value": "\"ACCOUNTFUNDING\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "Array",
-      "offset": 9583,
+      "offset": 9675,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9622,
+      "offset": 9714,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9666,
+      "offset": 9758,
       "length": 8,
       "value": "\"PERSON\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9712,
+      "offset": 9804,
       "length": 6,
       "value": "\"Adil\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9755,
+      "offset": 9847,
       "length": 6,
       "value": "\"Khan\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9801,
+      "offset": 9893,
       "length": 14,
       "value": "\"TEST_COMPANY\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9853,
+      "offset": 9945,
       "length": 13,
       "value": "\"ID_REQUIRED\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9905,
+      "offset": 9997,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 9951,
+      "offset": 10043,
       "length": 7,
       "value": "\"NAMWE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "Array",
-      "offset": 10269,
+      "offset": 10361,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10308,
-      "length": 5,
-      "value": "\"123\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
-      "kind": "StringLiteral",
-      "offset": 10353,
-      "length": 5,
-      "value": "\"123\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
-      "kind": "StringLiteral",
       "offset": 10400,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
+      "kind": "StringLiteral",
+      "offset": 10445,
+      "length": 5,
+      "value": "\"123\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
+      "kind": "StringLiteral",
+      "offset": 10492,
       "length": 8,
       "value": "\"PERSON\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10446,
+      "offset": 10538,
       "length": 5,
       "value": "\"Luc\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10488,
+      "offset": 10580,
       "length": 10,
       "value": "\"Jannsens\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10867,
+      "offset": 10959,
       "length": 14,
       "value": "\"BWP shipping\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10901,
+      "offset": 10993,
       "length": 12,
       "value": "\"California\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10932,
+      "offset": 11024,
       "length": 13,
       "value": "\"Los Angeles\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10965,
+      "offset": 11057,
       "length": 4,
       "value": "\"CA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 10991,
+      "offset": 11083,
       "length": 5,
       "value": "\"USA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11018,
+      "offset": 11110,
       "length": 8,
       "value": "\"150001\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11045,
+      "offset": 11137,
       "length": 16,
       "value": "\"1-833-848-5768\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11076,
+      "offset": 11168,
       "length": 16,
       "value": "\"mydashcard.com\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11289,
+      "offset": 11381,
       "length": 11,
       "value": "\"US Dollar\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11316,
+      "offset": 11408,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11335,
+      "offset": 11427,
       "length": 3,
       "value": "\"$\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11359,
+      "offset": 11451,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Model\/Transfer.swift",
       "kind": "StringLiteral",
-      "offset": 11382,
+      "offset": 11474,
       "length": 10,
       "value": "\"STANDARD\""
     },

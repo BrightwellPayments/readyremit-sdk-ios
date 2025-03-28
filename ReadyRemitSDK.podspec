@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.brightwell.com/readyremit'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
     s.author           = { 'Brightwell' => 'contact@brightwell.com' }
-    s.source           = { :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.1', :submodules => true }
+    s.source           = { :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.2', :submodules => true }
   
     s.platform     = :ios, '16.0'
   

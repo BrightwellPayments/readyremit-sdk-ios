@@ -309,6 +309,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+SWIFT_CLASS("_TtC13ReadyRemitSDK16RRMConfiguration")
+@interface RRMConfiguration : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtCC13ReadyRemitSDK16RRMConfiguration12BalanceCheck")
+@interface BalanceCheck : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, RRMLocale, open) {
+  RRMLocaleEnUS = 0,
+  RRMLocaleEsMX = 1,
+};
+
 typedef SWIFT_ENUM(NSInteger, RSP, open) {
   RSPVISA = 0,
   RSPMASTERCARD = 1,
@@ -320,8 +339,8 @@ enum ReadyRemitEnvironment : NSInteger;
 @class ReadyRemitAppearance;
 @class UINavigationController;
 @protocol ReadyRemitDelegate;
-enum TransferMethod : NSInteger;
 @class NSString;
+enum TransferMethod : NSInteger;
 
 SWIFT_CLASS("_TtC13ReadyRemitSDK10ReadyRemit")
 @interface ReadyRemit : NSObject
@@ -329,14 +348,17 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) ReadyRemit *
 + (ReadyRemit * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic) enum ReadyRemitEnvironment environment;
 @property (nonatomic, strong) ReadyRemitAppearance * _Nonnull appearance;
-- (void)launchObjcInNavigation:(UINavigationController * _Nonnull)inNavigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate onLaunch:(void (^ _Nullable)(void))onLaunch onDismiss:(void (^ _Nullable)(void))onDismiss rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod;
-/// We need overload it here because the ObjC doesn’t support default values
-- (void)launchObjcInNavigation:(UINavigationController * _Nonnull)inNavigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate onLaunch:(void (^ _Nullable)(void))onLaunch onDismiss:(void (^ _Nullable)(void))onDismiss;
-- (void)launchTransferDetailsObjcInNavigation:(UINavigationController * _Nonnull)inNavigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate transferId:(NSString * _Nonnull)transferId onLaunch:(void (^ _Nullable)(void))onLaunch onDismiss:(void (^ _Nullable)(void))onDismiss;
-- (void)closeAfterSeconds:(double)time onExpireDo:(void (^ _Nonnull)(void))onExpireDo;
+- (void)launchSDKIn:(UINavigationController * _Nonnull)navigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate configuration:(RRMConfiguration * _Nonnull)configuration;
+/// OBJC
+- (void)showTransferIn:(UINavigationController * _Nonnull)navigation transferId:(NSString * _Nonnull)transferId delegate:(id <ReadyRemitDelegate> _Nonnull)delegate configuration:(RRMConfiguration * _Nonnull)configuration;
 - (void)close;
-- (void)languageSelected:(NSString * _Nonnull)lang;
-- (void)dateFormatSelected:(NSString * _Nonnull)format;
+- (void)launchObjcInNavigation:(UINavigationController * _Nonnull)inNavigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate onLaunch:(void (^ _Nullable)(void))onLaunch onDismiss:(void (^ _Nullable)(void))onDismiss rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod SWIFT_DEPRECATED SWIFT_DEPRECATED_MSG("Use launchSDK(in: _, delegate: _, configuration: _) instead");
+/// We need overload it here because the ObjC doesn’t support default values
+- (void)launchObjcInNavigation:(UINavigationController * _Nonnull)inNavigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate onLaunch:(void (^ _Nullable)(void))onLaunch onDismiss:(void (^ _Nullable)(void))onDismiss SWIFT_DEPRECATED_MSG("Use launchSDK(in: _, delegate: _, configuration: _) instead");
+- (void)closeAfterSeconds:(double)time onExpireDo:(void (^ _Nonnull)(void))onExpireDo SWIFT_DEPRECATED_MSG("Use startSDK(delegate: _, configuration:_, onLoad: _) instead and se the timeout on the configuration");
+- (void)launchTransferDetailsObjcInNavigation:(UINavigationController * _Nonnull)inNavigation delegate:(id <ReadyRemitDelegate> _Nonnull)delegate transferId:(NSString * _Nonnull)transferId onLaunch:(void (^ _Nullable)(void))onLaunch onDismiss:(void (^ _Nullable)(void))onDismiss SWIFT_DEPRECATED_MSG("Use showTransfer(in: _, transferId: _, delegate: _, configuration: _) instead");
+- (void)languageSelected:(NSString * _Nonnull)lang SWIFT_DEPRECATED_MSG("Use startSDK(delegate: _, configuration:_, onLoad: _) instead, and provide language on configuration");
+- (void)dateFormatSelected:(NSString * _Nonnull)format SWIFT_DEPRECATED_MSG("Use startSDK(delegate: _, configuration:_, onLoad: _) instead and provide the date format on configuration");
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -359,7 +381,7 @@ SWIFT_CLASS("_TtCC13ReadyRemitSDK10ReadyRemit15TransferRequest")
 @property (nonatomic, readonly, copy) NSString * _Nullable recipientAccountId;
 @property (nonatomic, readonly, copy) NSArray<RequestField *> * _Nullable fields;
 @property (nonatomic, readonly, copy) NSString * _Nullable quoteHistoryId;
-@property (nonatomic, copy) NSString * _Nullable sourceAccountId;
+@property (nonatomic, readonly, copy) NSString * _Nullable sourceAccountId;
 - (nonnull instancetype)initWithDstCountryIso3Code:(NSString * _Nonnull)dstCountryIso3Code dstCurrencyIso3Code:(NSString * _Nonnull)dstCurrencyIso3Code srcCurrencyIso3Code:(NSString * _Nonnull)srcCurrencyIso3Code transferMethod:(NSString * _Nonnull)transferMethod quoteBy:(NSString * _Nonnull)quoteBy amount:(NSInteger)amount fee:(NSInteger)fee recipientId:(NSString * _Nonnull)recipientId recipientAccountId:(NSString * _Nullable)recipientAccountId fields:(NSArray<RequestField *> * _Nullable)fields quoteHistoryId:(NSString * _Nonnull)quoteHistoryId sourceAccountId:(NSString * _Nullable)sourceAccountId OBJC_DESIGNATED_INITIALIZER;
 - (NSString * _Nullable)toJSON SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
