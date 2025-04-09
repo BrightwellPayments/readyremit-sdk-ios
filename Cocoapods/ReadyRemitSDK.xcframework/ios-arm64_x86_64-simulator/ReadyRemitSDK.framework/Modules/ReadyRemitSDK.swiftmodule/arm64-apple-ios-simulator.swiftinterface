@@ -35,6 +35,18 @@ extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
     get
   }
 }
+
+extension ReadyRemitSDK.RRMConfiguration {
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, closeAfterInactivityTime: Swift.Double)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
+}
 public enum ReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
   case failedToCreateWithHostname(Swift.String, Swift.Int32)
@@ -163,7 +175,7 @@ extension ReadyRemitSDK.Reachability {
 }
 @objc final public class RRMConfiguration : ObjectiveC.NSObject {
   final public var environment: ReadyRemitSDK.ReadyRemitEnvironment
-  final public var language: ReadyRemitSDK.RRMLocale
+  final public var language: ReadyRemitSDK.RRMLocale?
   final public var dateFormat: ReadyRemitSDK.ReadyRemitDateFormats
   final public var appearance: ReadyRemitSDK.ReadyRemitAppearance
   final public var rsp: ReadyRemitSDK.RSP?
@@ -172,8 +184,8 @@ extension ReadyRemitSDK.Reachability {
   final public var balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck?
   final public var onLaunch: (() -> Swift.Void)?
   final public var onDismiss: (() -> Swift.Void)?
-  public init(environment: ReadyRemitSDK.ReadyRemitEnvironment = .production, language: ReadyRemitSDK.RRMLocale = .enUS, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats = .locale, appearance: ReadyRemitSDK.ReadyRemitAppearance = .init(), rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil, closeAfterInactivityTime: Swift.Double? = nil, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck? = nil, onLaunch: (() -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
-  @objc final public class BalanceCheck : ObjectiveC.NSObject {
+  public init(environment: ReadyRemitSDK.ReadyRemitEnvironment = .production, language: ReadyRemitSDK.RRMLocale? = nil, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats = .locale, appearance: ReadyRemitSDK.ReadyRemitAppearance = .init(), rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil, closeAfterInactivityTime: Swift.Double? = nil, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck? = nil, onLaunch: (() -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
+  @objc final public class BalanceCheck : ObjectiveC.NSObject, @unchecked Swift.Sendable {
     final public var alias: Swift.String
     final public var last4: Swift.String
     final public var balance: Swift.Double
@@ -213,6 +225,9 @@ extension UIKit.UIColor {
     get
   }
 }
+
+
+
 public struct RRMDynamicColor : Swift.Sendable {
   public init(light: SwiftUICore.Color, dark: SwiftUICore.Color)
   public init(light: UIKit.UIColor, dark: UIKit.UIColor)
@@ -242,6 +257,7 @@ final public class ReadyRemitColorScheme : Swift.Sendable {
   @objc func onSubmitTransfer(transferRequest: ReadyRemitSDK.ReadyRemit.TransferRequest, success: @escaping (Swift.String) -> Swift.Void, failure: @escaping (Swift.String, Swift.String) -> Swift.Void)
   @objc optional func onSDKClose()
 }
+
 extension ReadyRemitSDK.ReadyRemit {
   @objc final public class TransferRequest : ObjectiveC.NSObject, Swift.Encodable, Swift.Sendable {
     @objc final public let dstCountryIso3Code: Swift.String
@@ -273,7 +289,8 @@ extension ReadyRemitSDK.ReadyRemit {
     required public init(from decoder: any Swift.Decoder) throws
   }
 }
-public enum ReadyRemitDateFormats : Swift.String, Swift.Sendable {
+infix operator || : LogicalDisjunctionPrecedence
+@objc public enum ReadyRemitDateFormats : Swift.Int, Swift.Sendable {
   case yearMonthDay
   case dayMonthYear
   case monthDayYear
@@ -282,9 +299,9 @@ public enum ReadyRemitDateFormats : Swift.String, Swift.Sendable {
   public var format: Swift.String {
     get
   }
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }

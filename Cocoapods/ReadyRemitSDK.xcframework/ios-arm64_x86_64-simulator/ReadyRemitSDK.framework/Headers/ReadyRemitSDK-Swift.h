@@ -323,6 +323,25 @@ SWIFT_CLASS("_TtCC13ReadyRemitSDK16RRMConfiguration12BalanceCheck")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+enum ReadyRemitEnvironment : NSInteger;
+enum RRMLocale : NSInteger;
+enum ReadyRemitDateFormats : NSInteger;
+@class ReadyRemitAppearance;
+enum RSP : NSInteger;
+enum TransferMethod : NSInteger;
+
+@interface RRMConfiguration (SWIFT_EXTENSION(ReadyRemitSDK))
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance closeAfterInactivityTime:(double)closeAfterInactivityTime;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance balanceCheck:(BalanceCheck * _Nonnull)balanceCheck;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod closeAfterInactivityTime:(double)closeAfterInactivityTime;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod balanceCheck:(BalanceCheck * _Nonnull)balanceCheck;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod closeAfterInactivityTime:(double)closeAfterInactivityTime balanceCheck:(BalanceCheck * _Nonnull)balanceCheck;
+@end
+
 typedef SWIFT_ENUM(NSInteger, RRMLocale, open) {
   RRMLocaleEnUS = 0,
   RRMLocaleEsMX = 1,
@@ -335,12 +354,9 @@ typedef SWIFT_ENUM(NSInteger, RSP, open) {
   RSPCONVERA = 3,
 };
 
-enum ReadyRemitEnvironment : NSInteger;
-@class ReadyRemitAppearance;
 @class UINavigationController;
 @protocol ReadyRemitDelegate;
 @class NSString;
-enum TransferMethod : NSInteger;
 
 SWIFT_CLASS("_TtC13ReadyRemitSDK10ReadyRemit")
 @interface ReadyRemit : NSObject
@@ -408,6 +424,14 @@ SWIFT_CLASS("_TtC13ReadyRemitSDK20ReadyRemitAppearance")
 - (nonnull instancetype)initWithStyles:(NSDictionary * _Nonnull)styles OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, ReadyRemitDateFormats, open) {
+  ReadyRemitDateFormatsYearMonthDay = 0,
+  ReadyRemitDateFormatsDayMonthYear = 1,
+  ReadyRemitDateFormatsMonthDayYear = 2,
+  ReadyRemitDateFormatsFullDate = 3,
+  ReadyRemitDateFormatsLocale = 4,
+};
 
 
 SWIFT_PROTOCOL("_TtP13ReadyRemitSDK18ReadyRemitDelegate_")
@@ -790,6 +814,25 @@ SWIFT_CLASS("_TtCC13ReadyRemitSDK16RRMConfiguration12BalanceCheck")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+enum ReadyRemitEnvironment : NSInteger;
+enum RRMLocale : NSInteger;
+enum ReadyRemitDateFormats : NSInteger;
+@class ReadyRemitAppearance;
+enum RSP : NSInteger;
+enum TransferMethod : NSInteger;
+
+@interface RRMConfiguration (SWIFT_EXTENSION(ReadyRemitSDK))
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance closeAfterInactivityTime:(double)closeAfterInactivityTime;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance balanceCheck:(BalanceCheck * _Nonnull)balanceCheck;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod closeAfterInactivityTime:(double)closeAfterInactivityTime;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod balanceCheck:(BalanceCheck * _Nonnull)balanceCheck;
+- (nonnull instancetype)initWithEnvironment:(enum ReadyRemitEnvironment)environment language:(enum RRMLocale)language dateFormat:(enum ReadyRemitDateFormats)dateFormat appearance:(ReadyRemitAppearance * _Nonnull)appearance rsp:(enum RSP)rsp singleMethod:(enum TransferMethod)singleMethod closeAfterInactivityTime:(double)closeAfterInactivityTime balanceCheck:(BalanceCheck * _Nonnull)balanceCheck;
+@end
+
 typedef SWIFT_ENUM(NSInteger, RRMLocale, open) {
   RRMLocaleEnUS = 0,
   RRMLocaleEsMX = 1,
@@ -802,12 +845,9 @@ typedef SWIFT_ENUM(NSInteger, RSP, open) {
   RSPCONVERA = 3,
 };
 
-enum ReadyRemitEnvironment : NSInteger;
-@class ReadyRemitAppearance;
 @class UINavigationController;
 @protocol ReadyRemitDelegate;
 @class NSString;
-enum TransferMethod : NSInteger;
 
 SWIFT_CLASS("_TtC13ReadyRemitSDK10ReadyRemit")
 @interface ReadyRemit : NSObject
@@ -875,6 +915,14 @@ SWIFT_CLASS("_TtC13ReadyRemitSDK20ReadyRemitAppearance")
 - (nonnull instancetype)initWithStyles:(NSDictionary * _Nonnull)styles OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+typedef SWIFT_ENUM(NSInteger, ReadyRemitDateFormats, open) {
+  ReadyRemitDateFormatsYearMonthDay = 0,
+  ReadyRemitDateFormatsDayMonthYear = 1,
+  ReadyRemitDateFormatsMonthDayYear = 2,
+  ReadyRemitDateFormatsFullDate = 3,
+  ReadyRemitDateFormatsLocale = 4,
+};
 
 
 SWIFT_PROTOCOL("_TtP13ReadyRemitSDK18ReadyRemitDelegate_")
