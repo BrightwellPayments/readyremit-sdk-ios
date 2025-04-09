@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ReadyRemitSDK'
-    s.version          = '9.1'
+    s.version          = '9.2'
     s.summary          = 'Cross-border payouts, remittances & disbursements made easy'
     s.description      = <<-DESC
       ReadyRemit is designed to help you capture more revenue by quickly and
