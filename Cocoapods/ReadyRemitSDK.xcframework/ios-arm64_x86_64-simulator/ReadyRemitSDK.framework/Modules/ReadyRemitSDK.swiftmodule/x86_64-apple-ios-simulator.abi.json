@@ -8035,8 +8035,10 @@
                 "usr": "s:13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5alias5last47balance10externalIdAESS_SSSdSStcfc",
                 "mangledName": "$s13ReadyRemitSDK16RRMConfigurationC12BalanceCheckC5alias5last47balance10externalIdAESS_SSSdSStcfc",
                 "moduleName": "ReadyRemitSDK",
+                "objc_name": "initWithAlias:last4:balance:externalId:",
                 "declAttributes": [
-                  "AccessControl"
+                  "AccessControl",
+                  "ObjC"
                 ],
                 "init_kind": "Designated"
               },
@@ -9067,6 +9069,16 @@
         "moduleName": "ReadyRemitSDK",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReadyRemitSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -17255,16 +17267,72 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/ReadyRemit.swift",
       "kind": "BooleanLiteral",
-      "offset": 17770,
+      "offset": 17776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Public\/ReadyRemit.swift",
       "kind": "IntegerLiteral",
-      "offset": 18124,
+      "offset": 18130,
       "length": 4,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 11,
+      "value": "\"CountryId\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 13,
+      "value": "\"CountryName\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 16,
+      "value": "\"TransferMethod\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 16,
+      "value": "\"QuoteHistoryId\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 14,
+      "value": "\"AmountToSend\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 17,
+      "value": "\"AmountToReceive\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 21,
+      "value": "\"DstCurrencyIso3Code\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/Events\/EventProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 21,
+      "value": "\"SrcCurrencyIso3Code\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Util\/Constants\/Constants+Providers.swift",
@@ -17290,28 +17358,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/AdditionalInformation\/AdditionalInformationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 567,
+      "offset": 605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/AdditionalInformation\/AdditionalInformationViewModel.swift",
       "kind": "Array",
-      "offset": 619,
+      "offset": 657,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/AdditionalInformation\/AdditionalInformationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 739,
+      "offset": 777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Screens\/AdditionalInformation\/AdditionalInformationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 785,
+      "offset": 823,
       "length": 5,
       "value": "false"
     },
@@ -17920,7 +17988,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/UI\/CustomComponents\/LearnMoreModalView.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 456,
       "length": 2,
       "value": "58"
     },
@@ -17948,357 +18016,357 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "Dictionary",
-      "offset": 1937,
+      "offset": 2032,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "Dictionary",
-      "offset": 2150,
+      "offset": 2245,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2674,
+      "offset": 2769,
       "length": 33,
       "value": "\"KYCOnboarding - Continue Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2743,
+      "offset": 2838,
       "length": 29,
       "value": "\"KYCOnboarding - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2804,
+      "offset": 2899,
       "length": 24,
       "value": "\"KYCOnboarding - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2877,
+      "offset": 2972,
       "length": 14,
       "value": "\"KYC - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2921,
+      "offset": 3016,
       "length": 23,
       "value": "\"KYC - Continue Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2970,
+      "offset": 3065,
       "length": 19,
       "value": "\"KYC - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 3119,
       "length": 29,
       "value": "\"KYC - Alert Continue Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3086,
+      "offset": 3181,
       "length": 27,
       "value": "\"KYC - Alert Cancel Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3140,
+      "offset": 3235,
       "length": 20,
       "value": "\"KYC - Retry Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3182,
+      "offset": 3277,
       "length": 14,
       "value": "\"KYC - Loaded\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3220,
+      "offset": 3315,
       "length": 16,
       "value": "\"KYC - Finished\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3308,
+      "offset": 3403,
       "length": 27,
       "value": "\"RecipientProfile - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3376,
+      "offset": 3471,
       "length": 34,
       "value": "\"RecipientProfile - Delete Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3453,
+      "offset": 3548,
       "length": 37,
       "value": "\"RecipientProfile - Alert Yes Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3532,
+      "offset": 3627,
       "length": 36,
       "value": "\"RecipientProfile - Alert No Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3607,
+      "offset": 3702,
       "length": 32,
       "value": "\"RecipientProfile - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3678,
+      "offset": 3773,
       "length": 40,
       "value": "\"RecipientProfile - Edit Account Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3769,
+      "offset": 3864,
       "length": 46,
       "value": "\"RecipientProfile - Start New Transfer Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3866,
+      "offset": 3961,
       "length": 48,
       "value": "\"RecipientProfile - Continue to Transfer Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 3956,
+      "offset": 4051,
       "length": 35,
       "value": "\"RecipientProfile - Account Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4039,
+      "offset": 4134,
       "length": 41,
       "value": "\"RecipientProfile - DeleteAccount Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4130,
+      "offset": 4225,
       "length": 51,
       "value": "\"RecipientProfile - DeleteAccount Alert Yes Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4230,
+      "offset": 4325,
       "length": 50,
       "value": "\"RecipientProfile - DeleteAccount Alert No Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4339,
+      "offset": 4434,
       "length": 26,
       "value": "\"CreateRecipient - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4401,
+      "offset": 4496,
       "length": 35,
       "value": "\"CreateRecipient - Continue Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4475,
+      "offset": 4570,
       "length": 39,
       "value": "\"CreateRecipient - Error Action Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4546,
+      "offset": 4641,
       "length": 31,
       "value": "\"CreateRecipient - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4645,
+      "offset": 4740,
       "length": 41,
       "value": "\"AdditionalRecipientInformation - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4729,
+      "offset": 4824,
       "length": 50,
       "value": "\"AdditionalRecipientInformation - Continue Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4825,
+      "offset": 4920,
       "length": 54,
       "value": "\"AdditionalRecipientInformation - Error Action Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4918,
+      "offset": 5013,
       "length": 46,
       "value": "\"AdditionalRecipientInformation - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5045,
+      "offset": 5140,
       "length": 25,
       "value": "\"TransferReview - Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5111,
+      "offset": 5206,
       "length": 34,
       "value": "\"TransferReview - Continue Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5192,
+      "offset": 5287,
       "length": 42,
       "value": "\"TransferReview - Error KYC Action Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5285,
+      "offset": 5380,
       "length": 46,
       "value": "\"TransferReview - Error Network Action Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5375,
+      "offset": 5470,
       "length": 38,
       "value": "\"TransferReview - Error Action Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5464,
+      "offset": 5559,
       "length": 43,
       "value": "\"TransferReview - PrivacyPolicyLink Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5553,
+      "offset": 5648,
       "length": 43,
       "value": "\"TransferReview - PrivacyPolicyLink Closed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5639,
+      "offset": 5734,
       "length": 40,
       "value": "\"TransferReview - TermsOfUseLink Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5722,
+      "offset": 5817,
       "length": 40,
       "value": "\"TransferReview - TermsOfUseLink Closed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5803,
+      "offset": 5898,
       "length": 37,
       "value": "\"TransferReview - Fees Notice Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5881,
+      "offset": 5976,
       "length": 46,
       "value": "\"TransferReview - Exchange Rate Notice Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5964,
+      "offset": 6059,
       "length": 30,
       "value": "\"TransferReview - Back Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 6033,
+      "offset": 6128,
       "length": 26,
       "value": "\"TransferReview - Timeout\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 6109,
+      "offset": 6204,
       "length": 37,
       "value": "\"TransferReview - ExpiredRate Viewed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 6198,
+      "offset": 6293,
       "length": 53,
       "value": "\"TransferReview - Quote Expired Refresh Quote Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 6312,
+      "offset": 6407,
       "length": 58,
       "value": "\"TransferReview - Quote Expired Start New Transfer Tapped\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 6403,
+      "offset": 6498,
       "length": 10,
       "value": "\"Transfer\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/Data\/Analytics\/MixpanelManager.swift",
       "kind": "StringLiteral",
-      "offset": 6469,
+      "offset": 6564,
       "length": 23,
       "value": "\"VisaBranding - Viewed\""
     },
@@ -21217,14 +21285,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/SenderAccounts\/SenderAccountsViewState.swift",
       "kind": "BooleanLiteral",
-      "offset": 487,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/ReadyRemitSDK\/new_arch\/Presentantion\/Features\/SenderAccounts\/SenderAccountsViewState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 530,
+      "offset": 485,
       "length": 5,
       "value": "false"
     },
