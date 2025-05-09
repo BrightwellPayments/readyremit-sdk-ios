@@ -31,7 +31,7 @@
        dependencies: [
            .package(
                url: "https://github.com/BrightwellPayments/readyremit-sdk-ios",
-               .branch("9.2")
+               .branch("9.2.1")
            )
        ],
        targets: [
@@ -83,7 +83,7 @@
 
 1. Choose the dependency rule:
     - Select `Branch` from the options.
-    - Enter `9.1` as the branch name.
+    - Enter `9.2.1` as the branch name.
 2. Click `Add Package`.
 
 ##### **Step 4: Add the Package to Your Targets**
@@ -121,10 +121,10 @@
 #### **Step 3: Edit the Podfile**
 
 1. Open the `Podfile` in a text editor.
-2. Add the following line, replacing `9.1` with the desired version of the SDK:
+2. Add the following line, replacing `9.2.1` with the desired version of the SDK:
 
    ```ruby
-   pod 'ReadyRemitSDK', :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.1'
+   pod 'ReadyRemitSDK', :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.2.1'
    ```
 
 3. Your `Podfile` should look like this:
@@ -134,7 +134,7 @@
    use_frameworks!
 
    target 'MySwiftProject' do
-     pod 'ReadyRemitSDK', :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.1'
+     pod 'ReadyRemitSDK', :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.2.1'
    end
    ```
 
@@ -168,6 +168,6 @@ You can see how to configure ReadyRemitSDK in our [documentation](https://develo
 
 **Notes:**
 
-- Replace `9.1` with the actual version number you wish to use.
+- Replace `9.2.1` with the actual version number you wish to use.
 - Ensure that all URLs point to the correct locations in the GitHub repository.
 - Always test the integration thoroughly in your development environment.
