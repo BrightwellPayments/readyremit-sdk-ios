@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ReadyRemitSDK'
-    s.version          = '9.2.1'
+    s.version          = '9.3'
     s.summary          = 'Cross-border payouts, remittances & disbursements made easy'
     s.description      = <<-DESC
       ReadyRemit is designed to help you capture more revenue by quickly and
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://www.brightwell.com/readyremit'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
     s.author           = { 'Brightwell' => 'contact@brightwell.com' }
-    s.source           = { :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.2.1', :submodules => true }
+    s.source           = { :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :branch => '9.3', :submodules => true }
   
     s.platform     = :ios, '16.0'
   

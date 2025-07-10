@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name ReadyRemitSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name ReadyRemitSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import Combine
 import CommonCrypto
@@ -17,16 +17,9 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-#if compiler(>=5.3) && $RetroactiveAttribute
 extension UIKit.UIApplication : @retroactive UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
-#else
-extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
-}
-#endif
-
 @objc public enum RSP : Swift.Int, Swift.Sendable {
   case VISA, MASTERCARD, MONEYGRAM, CONVERA
   public init?(rawValue: Swift.Int)
@@ -38,23 +31,41 @@ extension UIKit.UIApplication : UIKit.UIGestureRecognizerDelegate {
 
 extension ReadyRemitSDK.RRMConfiguration {
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, closeAfterInactivityTime: Swift.Double)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, closeAfterInactivityTime: Swift.Double)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, closeAfterInactivityTime: Swift.Double, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, closeAfterInactivityTime: Swift.Double, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
   @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
+  @objc convenience dynamic public init(environment: ReadyRemitSDK.ReadyRemitEnvironment, language: ReadyRemitSDK.RRMLocale, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats, appearance: ReadyRemitSDK.ReadyRemitAppearance, homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts, rsp: ReadyRemitSDK.RSP, singleMethod: ReadyRemitSDK.TransferMethod, closeAfterInactivityTime: Swift.Double, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck, onLaunch: @escaping () -> Swift.Void, onDismiss: @escaping () -> Swift.Void)
 }
 public enum ReachabilityError : Swift.Error {
   case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
@@ -187,13 +198,14 @@ extension ReadyRemitSDK.Reachability {
   final public var language: ReadyRemitSDK.RRMLocale?
   final public var dateFormat: ReadyRemitSDK.ReadyRemitDateFormats
   final public var appearance: ReadyRemitSDK.ReadyRemitAppearance
+  final public var homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts
   final public var rsp: ReadyRemitSDK.RSP?
   final public var singleMethod: ReadyRemitSDK.TransferMethod?
   final public var closeAfterInactivityTime: Swift.Double?
   final public var balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck?
   final public var onLaunch: (() -> Swift.Void)?
   final public var onDismiss: (() -> Swift.Void)?
-  public init(environment: ReadyRemitSDK.ReadyRemitEnvironment = .production, language: ReadyRemitSDK.RRMLocale? = nil, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats = .locale, appearance: ReadyRemitSDK.ReadyRemitAppearance = .init(), rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil, closeAfterInactivityTime: Swift.Double? = nil, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck? = nil, onLaunch: (() -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
+  public init(environment: ReadyRemitSDK.ReadyRemitEnvironment = .production, language: ReadyRemitSDK.RRMLocale? = nil, dateFormat: ReadyRemitSDK.ReadyRemitDateFormats = .locale, appearance: ReadyRemitSDK.ReadyRemitAppearance = .init(), homeScreenTexts: ReadyRemitSDK.ReadyRemitHomeScreenTexts = .init(), rsp: ReadyRemitSDK.RSP? = nil, singleMethod: ReadyRemitSDK.TransferMethod? = nil, closeAfterInactivityTime: Swift.Double? = nil, balanceCheck: ReadyRemitSDK.RRMConfiguration.BalanceCheck? = nil, onLaunch: (() -> Swift.Void)? = nil, onDismiss: (() -> Swift.Void)? = nil)
   @objc final public class BalanceCheck : ObjectiveC.NSObject, @unchecked Swift.Sendable {
     final public var alias: Swift.String
     final public var last4: Swift.String
@@ -204,11 +216,18 @@ extension ReadyRemitSDK.Reachability {
   }
   @objc deinit
 }
-@objc public enum RRMLocale : Swift.Int, Swift.Sendable {
+@objc public enum RRMLocale : Swift.Int, Swift.CaseIterable, Swift.Sendable {
   case enUS
   case esMX
+  public var short: Swift.String {
+    get
+  }
   public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ReadyRemitSDK.RRMLocale]
   public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [ReadyRemitSDK.RRMLocale] {
+    get
+  }
   public var rawValue: Swift.Int {
     get
   }
@@ -260,7 +279,6 @@ final public class ReadyRemitColorScheme : Swift.Sendable {
   nonisolated(unsafe) final public var primaryLight: ReadyRemitSDK.RRMDynamicColor
   @objc deinit
 }
-
 @objc public protocol ReadyRemitDelegate {
   @objc func onAuthTokenRequest(success: @escaping (Swift.String) -> Swift.Void, failure: @escaping () -> Swift.Void)
   @objc func onSubmitTransfer(transferRequest: ReadyRemitSDK.ReadyRemit.TransferRequest, success: @escaping (Swift.String) -> Swift.Void, failure: @escaping (Swift.String, Swift.String) -> Swift.Void)
@@ -299,6 +317,7 @@ extension ReadyRemitSDK.ReadyRemit {
   }
 }
 infix operator || : LogicalDisjunctionPrecedence
+
 @objc public enum ReadyRemitDateFormats : Swift.Int, Swift.Sendable {
   case yearMonthDay
   case dayMonthYear
@@ -318,9 +337,49 @@ infix operator || : LogicalDisjunctionPrecedence
 extension UIKit.UIFont {
   public static func registerSFFont(withFilenameString filenameString: Swift.String)
 }
+
 @_inheritsConvenienceInitializers @objc final public class ReadyRemitAppearance : ObjectiveC.NSObject, Swift.Sendable {
   public init(colors: ReadyRemitSDK.ReadyRemitColorScheme)
   @objc public init(styles: Foundation.NSDictionary)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc final public class ReadyRemitHomeScreenTexts : ObjectiveC.NSObject, Swift.Sendable {
+  final public let title: ReadyRemitSDK.ReadyRemitHomeTitle?
+  final public let subtitle: ReadyRemitSDK.ReadyRemitHomeSubtitle?
+  public init(title: ReadyRemitSDK.ReadyRemitHomeTitle? = nil, subtitle: ReadyRemitSDK.ReadyRemitHomeSubtitle? = nil)
+  @objc deinit
+}
+@objc public enum ReadyRemitHomeTitle : Swift.Int, Swift.CaseIterable, Swift.Sendable {
+  case internationalAndDomestic
+  case internationalTransfer
+  case sendMoneyInternationally
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ReadyRemitSDK.ReadyRemitHomeTitle]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [ReadyRemitSDK.ReadyRemitHomeTitle] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ReadyRemitHomeSubtitle : Swift.Int, Swift.CaseIterable, Swift.Sendable {
+  case convenienceAndFlexibility
+  case friendsAndFamilyAbroad
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [ReadyRemitSDK.ReadyRemitHomeSubtitle]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [ReadyRemitSDK.ReadyRemitHomeSubtitle] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class ReadyRemitTextHelper : ObjectiveC.NSObject {
+  @objc public static func homeTitleText(for title: ReadyRemitSDK.ReadyRemitHomeTitle) -> Swift.String
+  @objc public static func homeSubtitleText(for subtitle: ReadyRemitSDK.ReadyRemitHomeSubtitle) -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -345,3 +404,9 @@ extension ReadyRemitSDK.TransferMethod : Swift.RawRepresentable {}
 extension ReadyRemitSDK.ReadyRemitDateFormats : Swift.Equatable {}
 extension ReadyRemitSDK.ReadyRemitDateFormats : Swift.Hashable {}
 extension ReadyRemitSDK.ReadyRemitDateFormats : Swift.RawRepresentable {}
+extension ReadyRemitSDK.ReadyRemitHomeTitle : Swift.Equatable {}
+extension ReadyRemitSDK.ReadyRemitHomeTitle : Swift.Hashable {}
+extension ReadyRemitSDK.ReadyRemitHomeTitle : Swift.RawRepresentable {}
+extension ReadyRemitSDK.ReadyRemitHomeSubtitle : Swift.Equatable {}
+extension ReadyRemitSDK.ReadyRemitHomeSubtitle : Swift.Hashable {}
+extension ReadyRemitSDK.ReadyRemitHomeSubtitle : Swift.RawRepresentable {}
