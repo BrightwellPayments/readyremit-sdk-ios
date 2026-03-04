@@ -6,11 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		mOB4Pj8BIm9zxM+t2m7kK6dikmU=
-		</data>
-		<key>CountriesAndConcurrencies.json</key>
-		<data>
-		AObgQgQLLU/+8yFg+tBklc90lLc=
+		+AOJZ3L33gjlC5ok3FGtFGpJX0U=
 		</data>
 		<key>Countries_en.json</key>
 		<data>
@@ -30,71 +26,99 @@
 		</data>
 		<key>Headers/ReadyRemitSDK-Swift.h</key>
 		<data>
-		AUpXtD0CGCzmC5FXj8lAFycApMM=
-		</data>
-		<key>Headers/ReadyRemitSDK.h</key>
-		<data>
-		s21Rutm7W0SutXt/60bAtJZWJ6M=
-		</data>
-		<key>Holidays-2024.json</key>
-		<data>
-		MwP3VzliZK5S4piuXZfDFkseUm0=
+		DsKqytOTymSJ+J59plmh6J7n04c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PK/9kM+IjSSefwgb8ktiq7FNECU=
+		r/aARjE4idQiFfORrad/0pissoY=
+		</data>
+		<key>Inter-Bold.ttf</key>
+		<data>
+		lGHnwIMTfCq+bRmPeE+w00GlJ6E=
+		</data>
+		<key>Inter-Italic.ttf</key>
+		<data>
+		CxQcUlAV12f3FDEGtKQk/SgvunE=
+		</data>
+		<key>Inter-Regular.ttf</key>
+		<data>
+		bjQw+QaktCtLY/2PM+SYpD2fjYQ=
+		</data>
+		<key>Inter-SemiBold.ttf</key>
+		<data>
+		tL2va91qR5tGxFKnu64T9csgeb8=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/g8C89S0xhWrQ5ZEiE9mVOd0Cms=
+		lfTr8PMNP11Cpzu8QS/npm5gnDQ=
+		</data>
+		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
+		<data>
+		Oeqse7JCDaHgLRz6DPrV/4uXv/Y=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gtenRPsNMAxJdRTZxwXWCM/kpBw=
+		no38FWyECblJVGtD6p2B2ai+xEE=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		T8Z8O1MesHfjHGF/ghDAYRNRFig=
+		K3qW0L1f1EbYvc98v4Sdzh052dc=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gtenRPsNMAxJdRTZxwXWCM/kpBw=
+		no38FWyECblJVGtD6p2B2ai+xEE=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6Ghn4C68TjOVVxAcOXLvR3suEuY=
+		j0W56pm/9h83YZtl6oSyBbpjps8=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/g8C89S0xhWrQ5ZEiE9mVOd0Cms=
+		lfTr8PMNP11Cpzu8QS/npm5gnDQ=
+		</data>
+		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
+		<data>
+		2Ofu89Y0SQ0UPdY5KXkaqm4WCUw=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DU/CM8mVikyMs7I3HZvtPpgodvE=
+		21ONmXjSmpy/VObFBDCo2OCV3mY=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lYv62Sy2pQ6bGEiDM4jG9rVe9hk=
+		gSixLC1JrUXoIA2mi1eZWbEIh/4=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DU/CM8mVikyMs7I3HZvtPpgodvE=
+		21ONmXjSmpy/VObFBDCo2OCV3mY=
 		</data>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/Pl9bFZPcN6ixMCNpPKm5TMMRoo=
+		hdQqjfJ2oaWPvdvsiZxxD83Qh0g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		rBFg9N0wQz7vkXJ2EQFgdNwkCEU=
+		r9nScvXq0kCzQlKn3RuKPj3D9vM=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		75DDHsVAjzNeXKlaAtRyCEft12g=
 		</data>
-		<key>ReadyRemitSDK.plist</key>
+		<key>Roboto-Bold.ttf</key>
 		<data>
-		jYCX+39fz7RKf3gkvT2uUW5/82o=
+		AT8bvLvYCZGl8A/KUqkNDXq4uB8=
+		</data>
+		<key>Roboto-Italic.ttf</key>
+		<data>
+		ZfP2p+G9L6by3zXksHd11/Hd5PA=
+		</data>
+		<key>Roboto-Regular.ttf</key>
+		<data>
+		hNECSIc4sOu8elCHlz7/vVTJW9U=
+		</data>
+		<key>Roboto-SemiBold.ttf</key>
+		<data>
+		nKE5aE/pAsgxDdgpkWSDdqyYONs=
 		</data>
 		<key>SF-Pro-Text-Bold.otf</key>
 		<data>
@@ -108,11 +132,31 @@
 		<data>
 		nBTqkRqUvLAXnLiEsHr/uI3kmoQ=
 		</data>
+		<key>SF-Pro-Text-Semibold.otf</key>
+		<data>
+		mc0GQwD52ALY8Gi5MD1VnPPETeg=
+		</data>
+		<key>SourceSans3-Bold.ttf</key>
+		<data>
+		OSmJTWCTeS/6gnomc4NA//69w20=
+		</data>
+		<key>SourceSans3-Italic.ttf</key>
+		<data>
+		bYdzldPllu1stvSXCV6ynqf704U=
+		</data>
+		<key>SourceSans3-Regular.ttf</key>
+		<data>
+		Gt/gnMFSA3wtzSViuNFtviSudZ8=
+		</data>
+		<key>SourceSans3-SemiBold.ttf</key>
+		<data>
+		UsKfVFWHjBQh7bfrwK9h9d3HorQ=
+		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gzMyppMw/1A9JG9SFEJeHElewfE=
+			wyYJjxexn38+eou0DigZL+Q/fFk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -121,11 +165,15 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i6t+LhMF0vmtcGZRVi1p67V4ock=
+			du9cYTPHee4AYggtxeQy1j31Cfw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>transferSubmitted.json</key>
+		<data>
+		VO3vn77LlAfmWJO3rDBnRlYx16g=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -133,14 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			62qv2bI9e9AAJ5KbI0gIqJVZIPNKe6SYcvTkDC6VPfc=
-			</data>
-		</dict>
-		<key>CountriesAndConcurrencies.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O5J52HaSiLJc/jQxH/Y1hsHWzoEsPmH/T1+t1cqKGw8=
+			aw6lAfLSYDczNGJBMpYEarOXM1nvpyc2omYodk68M9c=
 			</data>
 		</dict>
 		<key>Countries_en.json</key>
@@ -175,98 +216,126 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xSMMa0F1eyDgw4t2s2fmZM74SV442UHPUL0d+PI3hX8=
+			pmIzmo/C6BibZThRzKTizdXYo067WxO553uXgY12bbs=
 			</data>
 		</dict>
-		<key>Headers/ReadyRemitSDK.h</key>
+		<key>Inter-Bold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			otNyd79KKTfO32NikTo9I7wWaatl796/PXkp1sbePc8=
+			KIMWCZseCkekcW0VkJgAXu98AGaSHzTjIAOT29sBlH8=
 			</data>
 		</dict>
-		<key>Holidays-2024.json</key>
+		<key>Inter-Italic.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nMppPWZkCsCfksipcU8juqOMx1TrA2pSykRCSIZLxKw=
+			u8BR3SBLUBmhqgvAriqooFqxPno/l5+jV2Mdx/62gzo=
+			</data>
+		</dict>
+		<key>Inter-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QNaS/OGI5EceKzy6k3vpZ4ePYxrT67vc1YdofH6+DII=
+			</data>
+		</dict>
+		<key>Inter-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eKhD+t6dRhKlVnMC+1lbVpdutfzr9P6lpZEtY4uvzeM=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Olan3yuLrI2CgbnPZnrKCtbCYTxW6Dn8wcpCnClbMc8=
+			8OE8rIL8vaQKg7ITaVOONBUhRtxcVIyskjlhDGyAkao=
+			</data>
+		</dict>
+		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.package.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xP65hWJxPfrprx15c2r6f/4R3/kRgb22QqiYzbLhC1A=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixPJRUB+QYqxBNSI05lHfayR2SQE4Xu6bBAw6vJejUI=
+			RUuBeU1wkdFscdufBZ6+HEwvZHv6DnEAQE7DnmMI4vA=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qdwicVbrr7IXE9RSSLPGkjhjAEDrhK70yYW25R+1I6Y=
+			woyAVFKCHCE/HRyIv9x8pa33KmB+053kUTUb9m6gl6c=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixPJRUB+QYqxBNSI05lHfayR2SQE4Xu6bBAw6vJejUI=
+			RUuBeU1wkdFscdufBZ6+HEwvZHv6DnEAQE7DnmMI4vA=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vb6HR1j5C3tRfjAeStRWPkPY01uNjoh4RBRuKgNOC3g=
+			VagWIjlhEzbtVl6/VrDFi2C7wdofA2d4yolaY4+hIas=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Olan3yuLrI2CgbnPZnrKCtbCYTxW6Dn8wcpCnClbMc8=
+			8OE8rIL8vaQKg7ITaVOONBUhRtxcVIyskjlhDGyAkao=
+			</data>
+		</dict>
+		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.package.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VW0vuAX3JnFDjTcQCq295otAVYgClehUXSzlOnlo4Mw=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaQoUG07OmEn3jokQeFbEsHlIk0VjMMwDpmGSEDDWBU=
+			VI5Vv2i6pZw91oOKRkmY7hp/F1f09QwIdjfEM80oh/8=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWsx5ukpM6Y6znxKSzK9w4LYTiCPt4tUIYpvBPy0/fE=
+			mW8L0tTrUMSoEyUtHTXwQx1Air3GWo3yye7Te++EgJY=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaQoUG07OmEn3jokQeFbEsHlIk0VjMMwDpmGSEDDWBU=
+			VI5Vv2i6pZw91oOKRkmY7hp/F1f09QwIdjfEM80oh/8=
 			</data>
 		</dict>
 		<key>Modules/ReadyRemitSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bDgpEjPro8j4bfEqS+IedfvFm60CRiTuCBRL+/9NCzo=
+			3Lje2aMkgy/PWn1RhuBBICiBneM8yE/I0plJl9zujAs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			giACtcwaUdqmxhALDjGoLtBtG4QSz1cMwc/Fh2HH/po=
+			u6hPOEAUoKPh0GMUOL9dJd0l9D1FDBQ8o/f0nQJf3S8=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -276,11 +345,32 @@
 			mgKqywmSwKYn3WGy0mrmUmqNs9Z2qILq8K28lUZNFdA=
 			</data>
 		</dict>
-		<key>ReadyRemitSDK.plist</key>
+		<key>Roboto-Bold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4svFI/C217F4lZNc89ixlHK6QjqsSaRlNu/JXwWtAM=
+			uvRM6BY2zJJ/wndoQ35dqFO6xpnoqvgy0ELw3+0ptLQ=
+			</data>
+		</dict>
+		<key>Roboto-Italic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			meSoUGETbpngUpKe0NheNjhPulw0t3MTmo9kM5xgmUM=
+			</data>
+		</dict>
+		<key>Roboto-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MZz/bnox8PKkHEddykKJCqXRn+FgF+IpD4wdThT3ZIE=
+			</data>
+		</dict>
+		<key>Roboto-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V7QMONbMZfB8I+wDGbgpBP5l4F3EC1oTrGChj7WUO/E=
 			</data>
 		</dict>
 		<key>SF-Pro-Text-Bold.otf</key>
@@ -304,11 +394,46 @@
 			YJycLGDAQWF49E1EhMhxWtHkIG/FqaigEQHbf98Rg0U=
 			</data>
 		</dict>
+		<key>SF-Pro-Text-Semibold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yxc3VQhHIRneckbayxvrgB/nLGI0zTty4eWP1pwPp0U=
+			</data>
+		</dict>
+		<key>SourceSans3-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cQkCF2bpFezZch4o0R38cy1Xr/2knkyhW7bRUprdf90=
+			</data>
+		</dict>
+		<key>SourceSans3-Italic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8X+sqp7Sk7s4Um2zY44kBRC3OTw3/6cOXEjzlXXeRKs=
+			</data>
+		</dict>
+		<key>SourceSans3-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OT+1uHjO7QSuvDSwl+hTrlE4xR0MNLSWzo4rR+DQuUo=
+			</data>
+		</dict>
+		<key>SourceSans3-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vSVQ/OLSlbC/IL2LG38Ud9qDTxBmvYUKr9tHh6Z6Y8o=
+			</data>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uJm2RbVwocmhMMFK2eJyW4kh1EmF8iXwiaNIHM1e6SA=
+			PcjCUxQay5XUG2AdjuyfAqUVF7O7wrQBn4iXayheOk4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -317,10 +442,17 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZLgJ6c45HyleMxK7Ad6dg32U1pZ/tMVBlNjmRbH1gAo=
+			v4QqNGW0M7lh1HcmljXWKAORrcNXYJcMvVEQf3+W0NM=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>transferSubmitted.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2oAVrMu5EoZ1353T+pRvRNNSUTzJuqmlppl7xnZPaqQ=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
