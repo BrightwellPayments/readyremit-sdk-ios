@@ -14,17 +14,25 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Proprietary', :text => 'Copyright Brightwell, LLC. All rights reserved.' }
   s.author           = { 'Brightwell' => 'contact@brightwell.com' }
   
-  s.source           = { 
-    :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', 
-    :tag => s.version.to_s 
+  s.source           = {
+    :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git',
+    :tag => s.version.to_s
   }
 
   s.platform         = :ios, '16.0'
   s.swift_version    = '5.9'
-  
-  # Pre-compiled xcframeworks
+
+  s.prepare_command = <<-CMD
+    set -e
+    BASE='https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/#{s.version}'
+    curl -fSL -o ReadyRemitSDK.xcframework.zip "${BASE}/ReadyRemitSDK.xcframework.zip"
+    curl -fSL -o VisaSensoryBranding.xcframework.zip "${BASE}/VisaSensoryBranding.xcframework.zip"
+    unzip -o -q ReadyRemitSDK.xcframework.zip
+    unzip -o -q VisaSensoryBranding.xcframework.zip
+  CMD
+
   s.vendored_frameworks = [
-    'CocoaPods/ReadyRemitSDK.xcframework',
-    'CocoaPods/VisaSensoryBranding.xcframework'
+    'ReadyRemitSDK.xcframework',
+    'VisaSensoryBranding.xcframework'
   ]
 end

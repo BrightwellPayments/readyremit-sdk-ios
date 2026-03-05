@@ -1,4 +1,0 @@
-framework module ReadyRemitSDK {
-  header "ReadyRemitSDK-Swift.h"
-  requires objc
-}
