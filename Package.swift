@@ -1,39 +1,30 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 5.9
 import PackageDescription
 
+let version = "10.0.0"
+let baseURL = "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/\(version)"
+
 let package = Package(
-    name: "ReadyRemitSDKPackage",
+    name: "ReadyRemitSDK",
+    platforms: [
+        .iOS(.v16)
+    ],
     products: [
         .library(
             name: "ReadyRemitSDK",
-            targets: ["ReadyRemitSDKTarget"]
+            targets: ["ReadyRemitSDK", "VisaSensoryBranding"]
         )
-    ],
-    dependencies: [
-        .package(url: "https://github.com/Swinject/Swinject.git",
-                 from: "2.9.1"),
     ],
     targets: [
-        .target(name: "ReadyRemitSDKTarget",
-                dependencies: [.target(name: "ReadyRemitSDKWrapper"),],
-               path: "SwiftPM-Exclude/ReadyRemitTargetWrp"),
-        .target(name: "ReadyRemitSDKWrapper",
-                dependencies: [
-                    .target(name: "ReadyRemitSDK"),
-                    .target(name: "VisaSensoryBranding"),
-                    "Swinject",                
-                ],
-               path: "SwiftPM-Exclude/ReadyRemitWrapper"),
-        .binaryTarget(
-            name: "VisaSensoryBranding",
-            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v9.3/VisaSensoryBranding.xcframework.zip",
-            checksum: "e927457beef2a7c17e000b424d9c856fcb4622772f2ab24bb6e9c34b72d40a3c"
-        ),
         .binaryTarget(
             name: "ReadyRemitSDK",
-            url: "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/v9.3/ReadyRemitSDK.zip",
-            checksum: "8bdc718914376c9e61cb3d453b903f545dae05f9167bf134b70d47b07b8a2723"
+            url: "\(baseURL)/ReadyRemitSDK.xcframework.zip",
+            checksum: "c452306096e2ddf6b1030aa296467e72bba84d2a44b4f3788491713eb0e93fe3"
+        ),
+        .binaryTarget(
+            name: "VisaSensoryBranding",
+            url: "\(baseURL)/VisaSensoryBranding.xcframework.zip",
+            checksum: "2b0b3e88625a5fea502168e8b7d491830b2dead4f807684b785d2692a970d44d"
         )
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
