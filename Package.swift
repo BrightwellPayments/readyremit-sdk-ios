@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let version = "10.0.0"
+let version = "10.2.0"
 let baseURL = "https://github.com/BrightwellPayments/readyremit-sdk-ios/releases/download/\(version)"
 
 let package = Package(
@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "ReadyRemitSDK",
             url: "\(baseURL)/ReadyRemitSDK.xcframework.zip",
-            checksum: "c452306096e2ddf6b1030aa296467e72bba84d2a44b4f3788491713eb0e93fe3"
+            checksum: "926a0e9a8dd6ca4511212aba4f30c4e54d2e76d24c88698ff40dfb0822360eca"
         ),
         .binaryTarget(
             name: "VisaSensoryBranding",
