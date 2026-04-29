@@ -24,7 +24,7 @@ let package = Package(
         .binaryTarget(
             name: "VisaSensoryBranding",
             url: "\(baseURL)/VisaSensoryBranding.xcframework.zip",
-            checksum: "2b0b3e88625a5fea502168e8b7d491830b2dead4f807684b785d2692a970d44d"
+            checksum: "11bc01f9722512d8666110903cfb37c7566ff2875a57deac3e5c3a90ee1b5d4"
         )
     ]
 )
