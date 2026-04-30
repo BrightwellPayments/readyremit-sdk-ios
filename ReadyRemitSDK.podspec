@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReadyRemitSDK'
-  s.version          = '10.0.0'
+  s.version          = '10.2.0'
   s.summary          = 'Cross-border payouts, remittances & disbursements made easy'
   
   s.description      = <<-DESC

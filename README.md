@@ -19,7 +19,7 @@ Binary distribution of the ReadyRemit SDK via Swift Package Manager and CocoaPod
 
 1. File → Add Package Dependencies
 2. Enter: `https://github.com/BrightwellPayments/readyremit-sdk-ios`
-3. Select version: `10.0.0`
+3. Select version: `10.2.0`
 
 ### Swift Package Manager
 
@@ -27,7 +27,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/BrightwellPayments/readyremit-sdk-ios", exact: "10.0.0")
+    .package(url: "https://github.com/BrightwellPayments/readyremit-sdk-ios", exact: "10.2.0")
 ]
 ```
 
@@ -47,7 +47,7 @@ Then add `ReadyRemitSDK` to your target's dependencies:
 Add the pod to your `Podfile`:
 
 ```ruby
-pod 'ReadyRemitSDK', :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :tag => '10.0.0'
+pod 'ReadyRemitSDK', :git => 'https://github.com/BrightwellPayments/readyremit-sdk-ios.git', :tag => '10.2.0'
 ```
 
 Then run:
